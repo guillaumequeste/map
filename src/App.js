@@ -1,25 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Header from "./components/Header";
+import HeaderMobile from "./components/HeaderMobile";
+import Footer from "./components/Footer";
+import Helmet from "./components/Helmet";
+import { Link } from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+const App = () => (
+  <>
+    <Helmet
+      title={"Accueil Hippodromes visités"}
+      link={"http://map.guillaumequeste.fr"}
+    />
+    <Header />
+    <HeaderMobile />
+    <Footer />
+    <div className="app">
+      <div className="ligne">
+        <Link to="/" className="case">
+          <div className="titleCase">
+            <span>accueil</span>
+          </div>
+        </Link>
+        <Link to="/regions" className="case">
+          <div className="titleCase">
+            <span>Régions</span>
+          </div>
+        </Link>
+      </div>
+      <div className="ligne">
+        <Link to="/carte" className="case">
+          <div className="titleCase">
+            <span>Carte</span>
+          </div>
+        </Link>
+        <Link to="/liste" className="case">
+          <div className="titleCase">
+            <span>Liste</span>
+          </div>
+        </Link>
+      </div>
     </div>
-  );
-}
+  </>
+);
 
 export default App;

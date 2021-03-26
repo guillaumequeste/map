@@ -1,38 +1,272 @@
-.App {
-  text-align: center;
+:root {
+    --background-color: rgb(194, 150, 100);
+    --font-navbar-color: rgb(107, 69, 19);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* App ------------------------------------------------------------------ */
+
+.app {
+    height: 86vh;
+    width: 100vw;
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@media screen and (min-width: 1025px) {
+    .app {
+        height: 93vh;
+        margin-top: 0;
+    }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ligne {
+    display: flex;
+    height: calc(100% / 2);
 }
 
-.App-link {
-  color: #61dafb;
+.case {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    color: white;
+    border: solid 1px white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.titleCase {
+    margin: auto;
+}
+
+
+/* Contact ------------------------------------------------------------------------ */
+
+.divContact {
+    display: flex;
+    height: 93vh;
+    background-color: var(--background-color);
+    font-family: 'Lato', sans-serif;
+}
+
+.divContact2 {
+    margin: auto;
+    color: white;
+}
+
+.divContact2 a {
+    color: white;
+}
+
+.divContact2 a:hover {
+    color: white;
+}
+
+.textContact {
+    font-size: 0.9rem;
+}
+
+@media screen and (min-width: 540px) {
+    .textContact {
+        font-size: 1.2rem;
+    }
+}
+
+
+/* Crédits ------------------------------------------------------------------------ */
+
+.divCredits {
+    display: flex;
+    height: 93vh;
+    background-color: var(--background-color);
+    font-family: 'Lato', sans-serif;
+}
+
+.divCredits2 {
+    margin: auto;
+    color: white;
+}
+
+.divCredits2 a {
+    color: white;
+}
+
+.divCredits2 a:hover {
+    color: white;
+}
+
+
+/* Footer ------------------------------------------------------------------------- */
+
+.bodyFooter {
+    height: 7vh;
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    z-index: 5;
+}
+
+@media screen and (min-width: 1025px) {
+    .bodyFooter {
+        display: none;
+    }
+}
+
+.divFooter {
+    width: calc(100% / 4);
+    height: 7vh;
+    display: flex;
+    background-color: var(--background-color);
+    border-top: solid 1px white;
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+}
+
+.ecStyle {
+    background-color: rgb(146, 93, 43);
+}
+
+.linkFooter {
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.colorLinkFooter {
+    font-size: 0.7em;
+    margin: auto;
+}
+
+@media screen and (min-width: 760px) {
+    .colorLinkFooter {
+        font-size: 1.4em;
+    }
+}
+
+
+/* Header --------------------------------------------------------------------- */
+
+.bodyHeader {
+    display: none;
+}
+
+@media screen and (min-width: 1025px) {
+    .bodyHeader {
+        display: block;
+    }
+}
+
+.navbar {
+    height: 7vh;
+    z-index: 100 !important;
+    background-color: var(--background-color);
+    border-bottom: solid 1px white;
+    color: white !important;
+}
+
+.nav-link {
+    background-color: var(--background-color);
+    z-index: 100 !important;
+    color: var(--font-navbar-color) !important;
+}
+
+
+/* HeaderMobile -------------------------------------------------------------- */
+
+.bodyHeaderMobile {
+    height: 7vh;
+    width: 100vw;
+    display: flex;
+    top: 0;
+}
+
+@media screen and (min-width: 1025px) {
+    .bodyHeaderMobile {
+        display: none;
+    }
+}
+
+.divHeaderMobile {
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    background-color: var(--background-color);
+    border-bottom: solid 1px white;
+}
+
+.logo {
+    width: 60%;
+}
+
+.horse {
+    height: 6vh;
+}
+
+.linkHeaderMobile1 {
+    color: white;
+    width: 20%;
+    line-height: 7vh;
+    text-align: right;
+    font-size: 1rem;
+    font-family: 'Parisienne', cursive, sans-serif;
+    font-weight: bold;
+    color: var(--font-navbar-color);
+}
+
+.linkHeaderMobile1:hover {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 540px) {
+    .linkHeaderMobile1 {
+        font-size: 1rem;
+    }
+}
+
+.linkHeaderMobile2 {
+    color: white;
+    width: 20%;
+    line-height: 7vh;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Parisienne', cursive, sans-serif;
+    font-weight: bold;
+    color: var(--font-navbar-color);
+}
+
+.linkHeaderMobile2:hover {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 540px) {
+    .linkHeaderMobile2 {
+        font-size: 1rem;
+    }
+}
+
+
+/* Not Found -------------------------------------------------------------- */
+
+.notFound {
+    height: 93vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.divNotFound {
+    margin: auto;
+    color: white;
+}
+
+.imgExit {
+    width: 100px;
+}
+
+.imgDoor {
+    width: 100px;
 }
