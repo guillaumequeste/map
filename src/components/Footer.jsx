@@ -9,6 +9,18 @@ class Footer extends Component {
     return (
       <div className="bodyFooter">
         <Link
+          to="/"
+          className={`divFooter ${
+            this.props.accueil == true ? "ecStyle" : ""
+          }`}
+        >
+          <div className="linkFooter">
+            <span className="colorLinkFooter">
+              Accueil
+            </span>
+          </div>
+        </Link>
+        <Link
           to="/regions"
           className={`divFooter ${
             this.props.regions == true ? "ecStyle" : ""

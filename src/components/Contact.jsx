@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Header from "./Header";
-import HeaderMobile from "./HeaderMobile";
 import Helmet from "./Helmet";
 import Footer from "./Footer";
 
@@ -16,7 +15,6 @@ class Contact extends Component {
           link={"http://chevaux.guillaumequeste.fr/contact"}
         />
         <Header />
-        <HeaderMobile />
         <Footer contact={true}/>
         <div className="divContact">
           <div className="divContact2">

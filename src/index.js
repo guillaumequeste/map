@@ -13,7 +13,6 @@ import 'bootstrap/dist/js/bootstrap.bundle.min'
 import Regions from './components/Regions/Regions'
 import Carte from './components/Carte'
 import Liste from './components/Liste'
-import Credits from './components/Credits'
 import Contact from './components/Contact'
 import NotFound from './components/NotFound'
 
@@ -28,7 +27,6 @@ const Root = () => (
             <Route path='/regions' component={Regions}/>
             <Route path='/carte' component={Carte}/>
             <Route path='/liste' component={Liste}/>
-            <Route path='/credits' component={Credits}/>
             <Route path='/contact' component={Contact}/>
             <Route path='/notfound' component={NotFound}/>
             <Redirect to="/notfound" />

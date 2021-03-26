@@ -1,20 +1,18 @@
 import React from "react";
 import "./App.css";
 import Header from "./components/Header";
-import HeaderMobile from "./components/HeaderMobile";
 import Footer from "./components/Footer";
 import Helmet from "./components/Helmet";
 import { Link } from "react-router-dom";
 
-const App = () => (
+const App = (props) => (
   <>
     <Helmet
       title={"Accueil Hippodromes visités"}
       link={"http://map.guillaumequeste.fr"}
     />
     <Header />
-    <HeaderMobile />
-    <Footer />
+    <Footer accueil={true}/>
     <div className="app">
       <div className="ligne">
         <Link to="/" className="case">

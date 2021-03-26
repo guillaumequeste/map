@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Header from "../Header";
-import HeaderMobile from "../HeaderMobile";
 import Helmet from "../Helmet";
 import Footer from "../Footer";
 
@@ -16,7 +15,6 @@ class Regions extends Component {
           link={"http://map.guillaumequeste.fr/regions"}
         />
         <Header />
-        <HeaderMobile />
         <Footer regions={true}/>
         <div className="divRegions">
           <p>Régions</p>

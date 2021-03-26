@@ -1,25 +1,44 @@
 :root {
     --background-color: rgb(194, 150, 100);
-    --font-navbar-color: rgb(107, 69, 19);
+}
+
+
+/* leaflet */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#root {
+    width: inherit;
+    height: inherit;
+}
+
+.leaflet-container {
+    width: 80vw;
+    height: 65vh;
+}
+
+@media screen and (min-width: 1025px) {
+    .leaflet-container {
+        height: 70vh;
+    }
 }
 
 
 /* App ------------------------------------------------------------------ */
 
 .app {
-    height: 86vh;
+    height: 93vh;
     width: 100vw;
     background-color: var(--background-color);
     display: flex;
     flex-direction: column;
     color: white;
-}
-
-@media screen and (min-width: 1025px) {
-    .app {
-        height: 93vh;
-        margin-top: 0;
-    }
 }
 
 .ligne {
@@ -37,6 +56,16 @@
 
 .titleCase {
     margin: auto;
+}
+
+
+/* Carte ------------------------------------------------------------------------ */
+
+.divCarte {
+    display: flex;
+    height: 93vh;
+    background-color: var(--background-color);
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -73,29 +102,6 @@
 }
 
 
-/* Crédits ------------------------------------------------------------------------ */
-
-.divCredits {
-    display: flex;
-    height: 93vh;
-    background-color: var(--background-color);
-    font-family: 'Lato', sans-serif;
-}
-
-.divCredits2 {
-    margin: auto;
-    color: white;
-}
-
-.divCredits2 a {
-    color: white;
-}
-
-.divCredits2 a:hover {
-    color: white;
-}
-
-
 /* Footer ------------------------------------------------------------------------- */
 
 .bodyFooter {
@@ -114,7 +120,7 @@
 }
 
 .divFooter {
-    width: calc(100% / 4);
+    width: calc(100% / 5);
     height: 7vh;
     display: flex;
     background-color: var(--background-color);
@@ -161,91 +167,22 @@
 .navbar {
     height: 7vh;
     z-index: 100 !important;
-    background-color: var(--background-color);
     border-bottom: solid 1px white;
     color: white !important;
 }
 
 .nav-link {
-    background-color: var(--background-color);
     z-index: 100 !important;
-    color: var(--font-navbar-color) !important;
 }
 
 
-/* HeaderMobile -------------------------------------------------------------- */
+/* Liste ------------------------------------------------------------------------ */
 
-.bodyHeaderMobile {
-    height: 7vh;
-    width: 100vw;
+.divListe {
     display: flex;
-    top: 0;
-}
-
-@media screen and (min-width: 1025px) {
-    .bodyHeaderMobile {
-        display: none;
-    }
-}
-
-.divHeaderMobile {
-    width: 100%;
-    height: 7vh;
-    display: flex;
+    height: 93vh;
     background-color: var(--background-color);
-    border-bottom: solid 1px white;
-}
-
-.logo {
-    width: 60%;
-}
-
-.horse {
-    height: 6vh;
-}
-
-.linkHeaderMobile1 {
-    color: white;
-    width: 20%;
-    line-height: 7vh;
-    text-align: right;
-    font-size: 1rem;
-    font-family: 'Parisienne', cursive, sans-serif;
-    font-weight: bold;
-    color: var(--font-navbar-color);
-}
-
-.linkHeaderMobile1:hover {
-    color: white;
-    text-decoration: none;
-}
-
-@media screen and (min-width: 540px) {
-    .linkHeaderMobile1 {
-        font-size: 1rem;
-    }
-}
-
-.linkHeaderMobile2 {
-    color: white;
-    width: 20%;
-    line-height: 7vh;
-    text-align: center;
-    font-size: 1rem;
-    font-family: 'Parisienne', cursive, sans-serif;
-    font-weight: bold;
-    color: var(--font-navbar-color);
-}
-
-.linkHeaderMobile2:hover {
-    color: white;
-    text-decoration: none;
-}
-
-@media screen and (min-width: 540px) {
-    .linkHeaderMobile2 {
-        font-size: 1rem;
-    }
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -269,4 +206,14 @@
 
 .imgDoor {
     width: 100px;
+}
+
+
+/* Régions ------------------------------------------------------------------------ */
+
+.divRegions {
+    display: flex;
+    height: 93vh;
+    background-color: var(--background-color);
+    font-family: 'Lato', sans-serif;
 }
