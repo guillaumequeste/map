@@ -4,9 +4,6 @@ import Helmet from "./Helmet";
 import Footer from "./Footer";
 
 class Contact extends Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <div>
@@ -19,7 +16,7 @@ class Contact extends Component {
         <div className="divContact">
           <div className="divContact2">
             <p className="textContact">Site créé par Guillaume Queste :</p>
-            <a href="https://www.guillaumequeste.fr" target="_blank">
+            <a href="https://www.guillaumequeste.fr" target="_blank" rel="noreferrer">
               <h5 className="textContact">https://www.guillaumequeste.fr</h5>
             </a>
             <br></br>

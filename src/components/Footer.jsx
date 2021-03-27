@@ -2,16 +2,13 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 class Footer extends Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <div className="bodyFooter">
         <Link
           to="/"
           className={`divFooter ${
-            this.props.accueil == true ? "ecStyle" : ""
+            this.props.accueil === true ? "ecStyle" : ""
           }`}
         >
           <div className="linkFooter">
@@ -23,7 +20,7 @@ class Footer extends Component {
         <Link
           to="/regions"
           className={`divFooter ${
-            this.props.regions == true ? "ecStyle" : ""
+            this.props.regions === true ? "ecStyle" : ""
           }`}
         >
           <div className="linkFooter">
@@ -35,7 +32,7 @@ class Footer extends Component {
         <Link
           to="/carte"
           className={`divFooter ${
-            this.props.carte == true ? "ecStyle" : ""
+            this.props.carte === true ? "ecStyle" : ""
           }`}
         >
           <div className="linkFooter">
@@ -47,7 +44,7 @@ class Footer extends Component {
         <Link
           to="/liste"
           className={`divFooter ${
-            this.props.liste == true ? "ecStyle" : ""
+            this.props.liste === true ? "ecStyle" : ""
           }`}
         >
           <div className="linkFooter">
@@ -59,7 +56,7 @@ class Footer extends Component {
         <Link
           to="/contact"
           className={`divFooter ${
-            this.props.contact == true ? "ecStyle" : ""
+            this.props.contact === true ? "ecStyle" : ""
           }`}
         >
           <div className="linkFooter">

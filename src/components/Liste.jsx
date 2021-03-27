@@ -4,9 +4,6 @@ import Helmet from "./Helmet";
 import Footer from "./Footer";
 
 class Liste extends Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <div>

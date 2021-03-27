@@ -19,14 +19,9 @@ body {
 }
 
 .leaflet-container {
-    width: 80vw;
+    width: 90%;
     height: 65vh;
-}
-
-@media screen and (min-width: 1025px) {
-    .leaflet-container {
-        height: 70vh;
-    }
+    margin-left: 5%;
 }
 
 
@@ -61,11 +56,38 @@ body {
 
 /* Carte ------------------------------------------------------------------------ */
 
-.divCarte {
-    display: flex;
+
+/* CarteHippodromes ------------------------------------------------------------------------ */
+
+.bodyMap {
+    background-color: #948c81;
     height: 93vh;
-    background-color: var(--background-color);
-    font-family: 'Lato', sans-serif;
+    width: 100%;
+}
+
+.titreCarte {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 5% 0;
+}
+
+@media screen and (min-width: 540px) {
+    .titreCarte {
+        padding: 2% 0;
+    }
+}
+
+.linkHippodrome {
+    text-decoration: none;
+    display: flex;
+}
+
+.lien {
+    flex-direction: column;
+}
+
+.apercu {
+    width: 200px;
 }
 
 
