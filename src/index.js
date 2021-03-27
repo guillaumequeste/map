@@ -15,7 +15,14 @@ import Arras from './components/Regions/Nord/Arras'
 
 /* Basse-Normandie */
 import Argentan from './components/Regions/Basse_Normandie/Argentan'
+import Cabourg from './components/Regions/Basse_Normandie/Cabourg'
+import Caen from './components/Regions/Basse_Normandie/Caen'
 
+/* Ile-de-France & Haute-Normandie */
+import Auteuil from './components/Regions/Ile_de_France_Haute_Normandie/Auteuil'
+import Bacqueville from './components/Regions/Ile_de_France_Haute_Normandie/Bacqueville'
+import Bernay from './components/Regions/Ile_de_France_Haute_Normandie/Bernay'
+import Bihorel from './components/Regions/Ile_de_France_Haute_Normandie/Bihorel'
 
 /* Anjou-Maine-Centre-Ouest */
 import Angers from './components/Regions/Anjou_Maine_Centre_Ouest/Angers'
@@ -39,6 +46,13 @@ const Root = () => (
             <Route path='/arras' component={Arras}/>
 
             <Route path='/argentan' component={Argentan}/>
+            <Route path='/cabourg' component={Cabourg}/>
+            <Route path='/caen' component={Caen}/>
+
+            <Route path='/auteuil' component={Auteuil}/>
+            <Route path='/bacqueville_en_caux' component={Bacqueville}/>
+            <Route path='/bernay' component={Bernay}/>
+            <Route path='/bihorel' component={Bihorel}/>
 
             <Route path='/angers' component={Angers}/>
 
