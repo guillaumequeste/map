@@ -18,6 +18,11 @@ import choletmini from "../img/cholet/choletmini.jpg";
 import clairefontainemini from "../img/clairefontaine/clairefontainemini.jpg";
 import compiegnemini from "../img/compiegne/compiegnemini.jpg";
 import craonmini from "../img/craon/craonmini.jpg";
+import deauville01min from "../img/deauville/deauville01min.jpg";
+import dieppemini from "../img/dieppe/dieppemini.jpg";
+import dozulemini from "../img/dozule/dozulemini.jpg";
+import enghienmini from "../img/enghien/enghienmini.jpg";
+import evreuxmini from "../img/evreux/evreuxmini.jpg";
 
 export default class CarteHippodromes extends Component {
   state = {
@@ -45,6 +50,11 @@ export default class CarteHippodromes extends Component {
     const clairefontaine = [49.34605710683897, 0.056583603759463585];
     const compiegne = [49.4061428, 2.8454586];
     const craon = [47.83661575840418, -0.9337280247314084];
+    const deauville = [49.35414777153358, 0.08030336143792738];
+    const dieppe = [49.910237035930365, 1.0937288990112393];
+    const dozule = [49.24287385707446, -0.03681992937163159];
+    const enghien = [48.9799237, 2.2922579];
+    const evreux = [49.00912812880299, 1.1131200226011515];
 
     return (
       <div className="bodyMap">
@@ -281,9 +291,77 @@ export default class CarteHippodromes extends Component {
                   <div className="lien">
                     <div>Craon</div>
                     <div>
+                      <img src={craonmini} alt="craon" className="apercu" />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={deauville}>
+              <Popup>
+                <Link to="/deauville" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Deauville</div>
+                    <div>
                       <img
-                        src={craonmini}
-                        alt="craon"
+                        src={deauville01min}
+                        alt="deauville"
+                        className="apercu"
+                      />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={dieppe}>
+              <Popup>
+                <Link to="/dieppe" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Dieppe</div>
+                    <div>
+                      <img src={dieppemini} alt="dieppe" className="apercu" />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={dozule}>
+              <Popup>
+                <Link to="/dozule" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Dozulé</div>
+                    <div>
+                      <img src={dozulemini} alt="dozule" className="apercu" />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={enghien}>
+              <Popup>
+                <Link to="/enghien" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Enghien</div>
+                    <div>
+                      <img
+                        src={enghienmini}
+                        alt="enghien"
+                        className="apercu"
+                      />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={evreux}>
+              <Popup>
+                <Link to="/evreux" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Evreux</div>
+                    <div>
+                      <img
+                        src={evreuxmini}
+                        alt="evreux"
                         className="apercu"
                       />
                     </div>

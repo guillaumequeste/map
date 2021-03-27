@@ -311,6 +311,13 @@ body {
     padding-top: 2%;
     padding-bottom: 5%;
     background-color: #948c81;
+    padding-bottom: 20%;
+}
+
+@media screen and (min-width: 1025px) {
+    .photoLarge {
+        padding-bottom: 5%;
+    }
 }
 
 .imageLarge {
@@ -320,7 +327,6 @@ body {
 
 .tailleImageLarge {
     width: 90vw;
-    height: 70vh;
 }
 
 .der {

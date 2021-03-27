@@ -18,6 +18,8 @@ import Argentan from './components/Regions/Basse_Normandie/Argentan'
 import Cabourg from './components/Regions/Basse_Normandie/Cabourg'
 import Caen from './components/Regions/Basse_Normandie/Caen'
 import Clairefontaine from './components/Regions/Basse_Normandie/Clairefontaine'
+import Deauville from './components/Regions/Basse_Normandie/Deauville'
+import Dozule from './components/Regions/Basse_Normandie/Dozule'
 
 /* Ile-de-France & Haute-Normandie */
 import Auteuil from './components/Regions/Ile_de_France_Haute_Normandie/Auteuil'
@@ -27,6 +29,9 @@ import Bihorel from './components/Regions/Ile_de_France_Haute_Normandie/Bihorel'
 import Chantilly from './components/Regions/Ile_de_France_Haute_Normandie/Chantilly'
 import Chartres from './components/Regions/Ile_de_France_Haute_Normandie/Chartres'
 import Compiegne from './components/Regions/Ile_de_France_Haute_Normandie/Compiegne'
+import Dieppe from './components/Regions/Ile_de_France_Haute_Normandie/Dieppe'
+import Enghien from './components/Regions/Ile_de_France_Haute_Normandie/Enghien'
+import Evreux from './components/Regions/Ile_de_France_Haute_Normandie/Evreux'
 
 /* Anjou-Maine-Centre-Ouest */
 import Angers from './components/Regions/Anjou_Maine_Centre_Ouest/Angers'
@@ -55,6 +60,8 @@ const Root = () => (
             <Route path='/cabourg' component={Cabourg}/>
             <Route path='/caen' component={Caen}/>
             <Route path='/clairefontaine' component={Clairefontaine}/>
+            <Route path='/deauville' component={Deauville}/>
+            <Route path='/dozule' component={Dozule}/>
 
             <Route path='/auteuil' component={Auteuil}/>
             <Route path='/bacqueville_en_caux' component={Bacqueville}/>
@@ -63,6 +70,9 @@ const Root = () => (
             <Route path='/chantilly' component={Chantilly}/>
             <Route path='/chartres' component={Chartres}/>
             <Route path='/compiegne' component={Compiegne}/>
+            <Route path='/dieppe' component={Dieppe}/>
+            <Route path='/enghien' component={Enghien}/>
+            <Route path='/evreux' component={Evreux}/>
 
             <Route path='/angers' component={Angers}/>
             <Route path='/cholet' component={Cholet}/>
