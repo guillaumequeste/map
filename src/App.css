@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script');
 :root {
     --background-color: rgb(194, 150, 100);
 }
@@ -195,6 +196,141 @@ body {
 
 .nav-link {
     z-index: 100 !important;
+}
+
+
+/* Hippodrome détail */
+
+.fiche {
+    background-color: #948c81;
+    display: flex;
+    height: 95vh;
+    padding-top: 3%;
+}
+
+@media screen and (max-width: 1030px) {
+    .fiche {
+        flex-direction: column;
+    }
+}
+
+.image {
+    width: 50vw;
+    padding-left: 5%;
+}
+
+.tailleImage {
+    width: 50vw;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1030px) {
+    .tailleImage {
+        width: 90vw;
+    }
+}
+
+.description {
+    margin: auto;
+    margin-top: 0;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #c4c4c4;
+    border-radius: 10px;
+    width: 25vw;
+    height: 80vh;
+}
+
+@media screen and (max-width: 1030px) {
+    .description {
+        margin-top: 0;
+        margin-left: 5%;
+        width: 85vw;
+        height: 45vh;
+    }
+}
+
+.titreCard {
+    text-align: center;
+    font-family: 'Oleo Script', sans-serif;
+    color: rgb(27, 32, 37);
+    font-size: 3em;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+
+.long {
+    font-size: 2em;
+}
+
+@media screen and (max-width: 1030px) {
+    .titreCard {
+        padding-left: 5%;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+}
+
+.liCard {
+    margin-bottom: 5%;
+    list-style: none;
+}
+
+@media screen and (max-width: 1030px) {
+    .liCard {
+        margin-bottom: 0;
+    }
+}
+
+.plusDePhotos {
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    background-color: #948c81;
+}
+
+@media screen and (max-width: 1030px) {
+    .plusDePhotos {
+        flex-direction: column;
+    }
+}
+
+.tailleImagePlus {
+    width: 40vw;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1030px) {
+    .tailleImagePlus {
+        width: 85vw;
+        padding: 5%;
+    }
+}
+
+.photoLarge {
+    padding-top: 2%;
+    padding-bottom: 5%;
+    background-color: #948c81;
+}
+
+.imageLarge {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.tailleImageLarge {
+    width: 90vw;
+    height: 70vh;
+}
+
+.der {
+    padding-bottom: 20%;
+}
+
+@media screen and (min-width: 1025px) {
+    .der {
+        padding-bottom: 5%;
+    }
 }
 
 
