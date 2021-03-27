@@ -12,6 +12,12 @@ import bernaymini from "../img/bernay/bernaymini.jpg";
 import bihorelmini from "../img/bihorel/bihorelmini.jpg";
 import cabourgmini from "../img/cabourg/cabourgmini.jpg";
 import caenmini from "../img/caen/caenmini.jpg";
+import chantillymini from "../img/chantilly/chantillymini.jpg";
+import chartresmini from "../img/chartres/chartresmini.jpg";
+import choletmini from "../img/cholet/choletmini.jpg";
+import clairefontainemini from "../img/clairefontaine/clairefontainemini.jpg";
+import compiegnemini from "../img/compiegne/compiegnemini.jpg";
+import craonmini from "../img/craon/craonmini.jpg";
 
 export default class CarteHippodromes extends Component {
   state = {
@@ -33,6 +39,12 @@ export default class CarteHippodromes extends Component {
     const bihorel = [49.4586393, 1.1191943];
     const cabourg = [49.2772449, -0.1206713];
     const caen = [49.1751767, -0.3708798];
+    const chantilly = [49.191308512779045, 2.476100773826829];
+    const chartres = [48.45142594687998, 1.5097389577942977];
+    const cholet = [47.019964436493304, -0.8890111313643274];
+    const clairefontaine = [49.34605710683897, 0.056583603759463585];
+    const compiegne = [49.4061428, 2.8454586];
+    const craon = [47.83661575840418, -0.9337280247314084];
 
     return (
       <div className="bodyMap">
@@ -181,9 +193,97 @@ export default class CarteHippodromes extends Component {
                   <div className="lien">
                     <div>Caen</div>
                     <div>
+                      <img src={caenmini} alt="caen" className="apercu" />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={chantilly}>
+              <Popup>
+                <Link to="/chantilly" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Chantilly</div>
+                    <div>
                       <img
-                        src={caenmini}
-                        alt="caen"
+                        src={chantillymini}
+                        alt="chantilly"
+                        className="apercu"
+                      />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={chartres}>
+              <Popup>
+                <Link to="/chartres" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Chartres</div>
+                    <div>
+                      <img
+                        src={chartresmini}
+                        alt="chartres"
+                        className="apercu"
+                      />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={cholet}>
+              <Popup>
+                <Link to="/cholet" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Cholet</div>
+                    <div>
+                      <img src={choletmini} alt="cholet" className="apercu" />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={clairefontaine}>
+              <Popup>
+                <Link to="/clairefontaine" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Clairefontaine</div>
+                    <div>
+                      <img
+                        src={clairefontainemini}
+                        alt="clairefontaine"
+                        className="apercu"
+                      />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={compiegne}>
+              <Popup>
+                <Link to="/compiegne" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Compiègne</div>
+                    <div>
+                      <img
+                        src={compiegnemini}
+                        alt="compiegne"
+                        className="apercu"
+                      />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={craon}>
+              <Popup>
+                <Link to="/craon" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Craon</div>
+                    <div>
+                      <img
+                        src={craonmini}
+                        alt="craon"
                         className="apercu"
                       />
                     </div>
