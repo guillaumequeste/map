@@ -52,6 +52,8 @@ import saint_malomini from "../img/saint-malo/saint-malomini.jpg";
 import saint_omermini from "../img/saint-omer/saint-omermini.jpg";
 import saint_pierre_sur_divesmini from "../img/saint-pierre-sur-dives/saint-pierre-sur-divesmini.jpg";
 import strasbourgmini from "../img/strasbourg/strasbourgmini.jpg";
+import vincennesmini from "../img/vincennes/vincennesmini.jpg";
+import viremini from "../img/vire/viremini.jpg";
 
 export default class CarteHippodromes extends Component {
   state = {
@@ -113,6 +115,8 @@ export default class CarteHippodromes extends Component {
     const saint_omer = [50.7268006139747, 2.237274716949514];
     const saint_pierre_sur_dives = [49.014937553296704, -0.04520430461991509];
     const strasbourg = [48.68451691328222, 7.789386643819171];
+    const vincennes = [48.8242715410014, 2.451797900881729];
+    const vire = [48.85061391062303, -0.8991070195434077];
 
     return (
       <div className="bodyMap">
@@ -856,6 +860,38 @@ export default class CarteHippodromes extends Component {
                       <img
                         src={strasbourgmini}
                         alt="strasbourg"
+                        className="apercu"
+                      />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={vincennes}>
+              <Popup>
+                <Link to="/vincennes" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Vincennes</div>
+                    <div>
+                      <img
+                        src={vincennesmini}
+                        alt="vincennes"
+                        className="apercu"
+                      />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={vire}>
+              <Popup>
+                <Link to="/vire" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Vire</div>
+                    <div>
+                      <img
+                        src={viremini}
+                        alt="vire"
                         className="apercu"
                       />
                     </div>

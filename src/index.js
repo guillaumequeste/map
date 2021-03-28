@@ -29,6 +29,7 @@ import Le_Mont from './components/Regions/Basse_Normandie/Le_Mont'
 import Lisieux from './components/Regions/Basse_Normandie/Lisieux'
 import Ranes from './components/Regions/Basse_Normandie/Ranes'
 import Saint_Pierre_sur_Dives from './components/Regions/Basse_Normandie/Saint_Pierre_sur_Dives'
+import Vire from './components/Regions/Basse_Normandie/Vire'
 
 /* Ile-de-France & Haute-Normandie */
 import Auteuil from './components/Regions/Ile_de_France_Haute_Normandie/Auteuil'
@@ -52,6 +53,7 @@ import Mauquenchy from './components/Regions/Ile_de_France_Haute_Normandie/Mauqu
 import Rambouillet from './components/Regions/Ile_de_France_Haute_Normandie/Rambouillet'
 import Saint_Aubin from './components/Regions/Ile_de_France_Haute_Normandie/Saint_Aubin'
 import Saint_Cloud from './components/Regions/Ile_de_France_Haute_Normandie/Saint_Cloud'
+import Vincennes from './components/Regions/Ile_de_France_Haute_Normandie/Vincennes'
 
 /* Anjou-Maine-Centre-Ouest */
 import Angers from './components/Regions/Anjou_Maine_Centre_Ouest/Angers'
@@ -106,6 +108,7 @@ const Root = () => (
             <Route path='/lisieux' component={Lisieux}/>
             <Route path='/ranes' component={Ranes}/>
             <Route path='/saint-pierre-sur-dives' component={Saint_Pierre_sur_Dives}/>
+            <Route path='/vire' component={Vire}/>
 
             <Route path='/auteuil' component={Auteuil}/>
             <Route path='/bacqueville_en_caux' component={Bacqueville}/>
@@ -128,6 +131,7 @@ const Root = () => (
             <Route path='/rambouillet' component={Rambouillet}/>
             <Route path='/saint_aubin' component={Saint_Aubin}/>
             <Route path='/saint-cloud' component={Saint_Cloud}/>
+            <Route path='/vincennes' component={Vincennes}/>
 
             <Route path='/angers' component={Angers}/>
             <Route path='/cholet' component={Cholet}/>
