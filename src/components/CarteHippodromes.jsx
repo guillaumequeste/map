@@ -45,6 +45,13 @@ import monsmini from "../img/mons/monsmini.jpg";
 import nantesmini from "../img/nantes/nantesmini.jpg";
 import rambouillet01min from "../img/rambouillet/rambouillet01min.jpg";
 import ranesmini from "../img/ranes/ranesmini.jpg";
+import reimsmini from "../img/reims/reimsmini.jpg";
+import saint_aubinmini from "../img/saint_aubin/saint_aubinmini.jpg";
+import saint_cloudmini from "../img/saint-cloud/saint-cloudmini.jpg";
+import saint_malomini from "../img/saint-malo/saint-malomini.jpg";
+import saint_omermini from "../img/saint-omer/saint-omermini.jpg";
+import saint_pierre_sur_divesmini from "../img/saint-pierre-sur-dives/saint-pierre-sur-divesmini.jpg";
+import strasbourgmini from "../img/strasbourg/strasbourgmini.jpg";
 
 export default class CarteHippodromes extends Component {
   state = {
@@ -99,6 +106,13 @@ export default class CarteHippodromes extends Component {
     const nantes = [47.2467314, -1.5667671];
     const rambouillet = [48.63768294022566, 1.854044368875729];
     const ranes = [48.64199474697866, -0.2168726719970664];
+    const reims = [49.23425248548578, 4.011013589935374];
+    const saint_aubin = [49.30849696355618, 1.020071769866945];
+    const saint_cloud = [48.857875921915365, 2.203160397551642];
+    const saint_malo = [48.6427010279671, -1.998111407655415];
+    const saint_omer = [50.7268006139747, 2.237274716949514];
+    const saint_pierre_sur_dives = [49.014937553296704, -0.04520430461991509];
+    const strasbourg = [48.68451691328222, 7.789386643819171];
 
     return (
       <div className="bodyMap">
@@ -735,9 +749,113 @@ export default class CarteHippodromes extends Component {
                   <div className="lien">
                     <div>Rânes</div>
                     <div>
+                      <img src={ranesmini} alt="ranes" className="apercu" />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={reims}>
+              <Popup>
+                <Link to="/reims" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Reims</div>
+                    <div>
+                      <img src={reimsmini} alt="reims" className="apercu" />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={saint_aubin}>
+              <Popup>
+                <Link to="/saint_aubin" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Saint-Aubin-lès-Elbeuf</div>
+                    <div>
                       <img
-                        src={ranesmini}
-                        alt="ranes"
+                        src={saint_aubinmini}
+                        alt="saint_aubin_les_elbeuf"
+                        className="apercu"
+                      />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={saint_cloud}>
+              <Popup>
+                <Link to="/saint-cloud" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Saint-Cloud</div>
+                    <div>
+                      <img
+                        src={saint_cloudmini}
+                        alt="saint-cloud"
+                        className="apercu"
+                      />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={saint_malo}>
+              <Popup>
+                <Link to="/saint-malo" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Saint-Malo</div>
+                    <div>
+                      <img
+                        src={saint_malomini}
+                        alt="saint-malo"
+                        className="apercu"
+                      />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={saint_omer}>
+              <Popup>
+                <Link to="/saint-omer" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Saint-Omer</div>
+                    <div>
+                      <img
+                        src={saint_omermini}
+                        alt="saint-omer"
+                        className="apercu"
+                      />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={saint_pierre_sur_dives}>
+              <Popup>
+                <Link to="/saint-pierre-sur-dives" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Saint-Pierre-sur-Dives</div>
+                    <div>
+                      <img
+                        src={saint_pierre_sur_divesmini}
+                        alt="saint-pierre-sur-dives"
+                        className="apercu"
+                      />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={strasbourg}>
+              <Popup>
+                <Link to="/strasbourg" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Strasbourg</div>
+                    <div>
+                      <img
+                        src={strasbourgmini}
+                        alt="strasbourg"
                         className="apercu"
                       />
                     </div>

@@ -15,6 +15,7 @@ import Arras from './components/Regions/Nord/Arras'
 import La_Capelle from './components/Regions/Nord/La_Capelle'
 import Le_Croise from './components/Regions/Nord/Le_Croise'
 import Le_Touquet from './components/Regions/Nord/Le_Touquet'
+import Saint_Omer from './components/Regions/Nord/Saint_Omer'
 
 /* Basse-Normandie */
 import Argentan from './components/Regions/Basse_Normandie/Argentan'
@@ -27,6 +28,7 @@ import Graignes from './components/Regions/Basse_Normandie/Graignes'
 import Le_Mont from './components/Regions/Basse_Normandie/Le_Mont'
 import Lisieux from './components/Regions/Basse_Normandie/Lisieux'
 import Ranes from './components/Regions/Basse_Normandie/Ranes'
+import Saint_Pierre_sur_Dives from './components/Regions/Basse_Normandie/Saint_Pierre_sur_Dives'
 
 /* Ile-de-France & Haute-Normandie */
 import Auteuil from './components/Regions/Ile_de_France_Haute_Normandie/Auteuil'
@@ -48,6 +50,8 @@ import Longchamp from './components/Regions/Ile_de_France_Haute_Normandie/Longch
 import Maisons_Laffitte from './components/Regions/Ile_de_France_Haute_Normandie/Maisons_Laffitte'
 import Mauquenchy from './components/Regions/Ile_de_France_Haute_Normandie/Mauquenchy'
 import Rambouillet from './components/Regions/Ile_de_France_Haute_Normandie/Rambouillet'
+import Saint_Aubin from './components/Regions/Ile_de_France_Haute_Normandie/Saint_Aubin'
+import Saint_Cloud from './components/Regions/Ile_de_France_Haute_Normandie/Saint_Cloud'
 
 /* Anjou-Maine-Centre-Ouest */
 import Angers from './components/Regions/Anjou_Maine_Centre_Ouest/Angers'
@@ -60,6 +64,11 @@ import Meslay from './components/Regions/Anjou_Maine_Centre_Ouest/Meslay'
 /* Ouest */
 import Maure_de_Bretagne from './components/Regions/Ouest/Maure_de_Bretagne'
 import Nantes from './components/Regions/Ouest/Nantes'
+import Saint_Malo from './components/Regions/Ouest/Saint_Malo'
+
+/* Est */
+import Reims from './components/Regions/Est/Reims'
+import Strasbourg from './components/Regions/Est/Strasbourg'
 
 /* Belgique */
 import Mons from './components/Regions/Belgique/Mons'
@@ -84,7 +93,7 @@ const Root = () => (
             <Route path='/la_capelle' component={La_Capelle}/>
             <Route path='/le_croise' component={Le_Croise}/>
             <Route path='/le_touquet' component={Le_Touquet}/>
-
+            <Route path='/saint-omer' component={Saint_Omer}/>
 
             <Route path='/argentan' component={Argentan}/>
             <Route path='/cabourg' component={Cabourg}/>
@@ -96,7 +105,7 @@ const Root = () => (
             <Route path='/le_mont' component={Le_Mont}/>
             <Route path='/lisieux' component={Lisieux}/>
             <Route path='/ranes' component={Ranes}/>
-
+            <Route path='/saint-pierre-sur-dives' component={Saint_Pierre_sur_Dives}/>
 
             <Route path='/auteuil' component={Auteuil}/>
             <Route path='/bacqueville_en_caux' component={Bacqueville}/>
@@ -117,6 +126,8 @@ const Root = () => (
             <Route path='/maisons_laffitte' component={Maisons_Laffitte}/>
             <Route path='/mauquenchy' component={Mauquenchy}/>
             <Route path='/rambouillet' component={Rambouillet}/>
+            <Route path='/saint_aubin' component={Saint_Aubin}/>
+            <Route path='/saint-cloud' component={Saint_Cloud}/>
 
             <Route path='/angers' component={Angers}/>
             <Route path='/cholet' component={Cholet}/>
@@ -127,6 +138,10 @@ const Root = () => (
 
             <Route path='/maure_de_bretagne' component={Maure_de_Bretagne}/>
             <Route path='/nantes' component={Nantes}/>
+            <Route path='/saint-malo' component={Saint_Malo}/>
+
+            <Route path='/reims' component={Reims}/>
+            <Route path='/strasbourg' component={Strasbourg}/>
 
             <Route path='/mons' component={Mons}/>
 
