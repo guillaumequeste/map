@@ -30,6 +30,19 @@ import la_capellemini from "../img/la_capelle/la_capellemini.jpg";
 import la_ferte_vidame01min from "../img/la_ferte-vidame/la_ferte-vidame01min.jpg";
 import lavalmini from "../img/laval/lavalmini.jpg";
 import le_croisemini from "../img/le_croise/le_croisemini.jpg";
+import le_lionmini from "../img/le_lion/le_lionmini.jpg";
+import le_montmini from "../img/le_mont/le_montmini.jpg";
+import le_neubourgmini from "../img/le_neubourg/le_neubourgmini.jpg";
+import le_touquetmini from "../img/le_touquet/le_touquetmini.jpg";
+import les_andelys01min from "../img/les_andelys/les_andelys01min.jpg";
+import lisieux01min from "../img/lisieux/lisieux01min.jpg";
+import longchampmini from "../img/longchamp/longchampmini.jpg";
+import maisons_laffittemini from "../img/maisons_laffitte/maisons_laffittemini.jpg";
+import mauquenchymini from "../img/mauquenchy/mauquenchymini.jpg";
+import maure_de_bretagnemini from "../img/maure_de_bretagne/maure_de_bretagnemini.jpg";
+import meslaymini from "../img/meslay/meslaymini.jpg";
+import monsmini from "../img/mons/monsmini.jpg";
+import nantesmini from "../img/nantes/nantesmini.jpg";
 
 export default class CarteHippodromes extends Component {
   state = {
@@ -68,7 +81,20 @@ export default class CarteHippodromes extends Component {
     const la_capelle = [49.96745788709066, 3.9210740150385845];
     const la_ferte_vidame = [48.62214998449914, 0.8945448696612912];
     const laval = [48.03654876550867, -0.79427457057011];
-    const le_croise = [50.66740342836, 3.0933489234778335]
+    const le_croise = [50.66740342836, 3.0933489234778335];
+    const le_lion = [47.627642154779075, -0.7068720211182153];
+    const le_mont = [48.58435089492097, -1.5140505370483197];
+    const le_neubourg = [49.137763376553714, 0.9030580304107616];
+    const le_touquet = [50.52455181672819, 1.6080518874526888];
+    const les_andelys = [49.22882191348012, 1.3766622735461054];
+    const lisieux = [49.15063276625466, 0.27103529970133877];
+    const longchamp = [48.85996009473326, 2.234109026859869];
+    const maisons_laffitte = [48.95595111865754, 2.170992717490435];
+    const mauquenchy = [49.58952406322148, 1.4538518019471667];
+    const maure_de_bretagne = [47.89119140176784, -2.0226686087036114];
+    const meslay = [47.95002087997146, -0.5331800724213736];
+    const mons = [50.48137807649974, 3.925027224786845];
+    const nantes = [47.2467314, -1.5667671];
 
     return (
       <div className="bodyMap">
@@ -476,6 +502,210 @@ export default class CarteHippodromes extends Component {
                       <img
                         src={le_croisemini}
                         alt="le_croise_laroche"
+                        className="apercu"
+                      />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={le_lion}>
+              <Popup>
+                <Link to="/le_lion" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Le Lion d Angers</div>
+                    <div>
+                      <img
+                        src={le_lionmini}
+                        alt="le_lion_d_angers"
+                        className="apercu"
+                      />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={le_mont}>
+              <Popup>
+                <Link to="/le_mont" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Le Mont-Saint-Michel</div>
+                    <div>
+                      <img
+                        src={le_montmini}
+                        alt="le_mont_saint_michel"
+                        className="apercu"
+                      />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={le_neubourg}>
+              <Popup>
+                <Link to="/le_neubourg" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Le Neubourg</div>
+                    <div>
+                      <img
+                        src={le_neubourgmini}
+                        alt="le_neubourg"
+                        className="apercu"
+                      />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={le_touquet}>
+              <Popup>
+                <Link to="/le_touquet" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Le Touquet</div>
+                    <div>
+                      <img
+                        src={le_touquetmini}
+                        alt="le_touquet"
+                        className="apercu"
+                      />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={les_andelys}>
+              <Popup>
+                <Link to="/les_andelys" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Les Andelys</div>
+                    <div>
+                      <img
+                        src={les_andelys01min}
+                        alt="les_andelys"
+                        className="apercu"
+                      />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={lisieux}>
+              <Popup>
+                <Link to="/lisieux" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Lisieux</div>
+                    <div>
+                      <img
+                        src={lisieux01min}
+                        alt="lisieux"
+                        className="apercu"
+                      />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={longchamp}>
+              <Popup>
+                <Link to="/longchamp" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Longchamp</div>
+                    <div>
+                      <img
+                        src={longchampmini}
+                        alt="longchamp"
+                        className="apercu"
+                      />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={maisons_laffitte}>
+              <Popup>
+                <Link to="/maisons_laffitte" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Maisons-Laffitte</div>
+                    <div>
+                      <img
+                        src={maisons_laffittemini}
+                        alt="maisons_laffitte"
+                        className="apercu"
+                      />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={mauquenchy}>
+              <Popup>
+                <Link to="/mauquenchy" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Mauquenchy</div>
+                    <div>
+                      <img
+                        src={mauquenchymini}
+                        alt="mauquenchy"
+                        className="apercu"
+                      />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={maure_de_bretagne}>
+              <Popup>
+                <Link to="/maure_de_bretagne" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Maure de Bretagne</div>
+                    <div>
+                      <img
+                        src={maure_de_bretagnemini}
+                        alt="maure_de_bretagne"
+                        className="apercu"
+                      />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={meslay}>
+              <Popup>
+                <Link to="/meslay" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Meslay-du-Maine</div>
+                    <div>
+                      <img
+                        src={meslaymini}
+                        alt="meslay_du_maine"
+                        className="apercu"
+                      />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={mons}>
+              <Popup>
+                <Link to="/mons" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Mons</div>
+                    <div>
+                      <img src={monsmini} alt="mons" className="apercu" />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={nantes}>
+              <Popup>
+                <Link to="/nantes" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Nantes</div>
+                    <div>
+                      <img
+                        src={nantesmini}
+                        alt="nantes"
                         className="apercu"
                       />
                     </div>

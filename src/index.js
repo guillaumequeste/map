@@ -14,6 +14,7 @@ import Amiens from './components/Regions/Nord/Amiens'
 import Arras from './components/Regions/Nord/Arras'
 import La_Capelle from './components/Regions/Nord/La_Capelle'
 import Le_Croise from './components/Regions/Nord/Le_Croise'
+import Le_Touquet from './components/Regions/Nord/Le_Touquet'
 
 /* Basse-Normandie */
 import Argentan from './components/Regions/Basse_Normandie/Argentan'
@@ -23,6 +24,8 @@ import Clairefontaine from './components/Regions/Basse_Normandie/Clairefontaine'
 import Deauville from './components/Regions/Basse_Normandie/Deauville'
 import Dozule from './components/Regions/Basse_Normandie/Dozule'
 import Graignes from './components/Regions/Basse_Normandie/Graignes'
+import Le_Mont from './components/Regions/Basse_Normandie/Le_Mont'
+import Lisieux from './components/Regions/Basse_Normandie/Lisieux'
 
 /* Ile-de-France & Haute-Normandie */
 import Auteuil from './components/Regions/Ile_de_France_Haute_Normandie/Auteuil'
@@ -38,12 +41,26 @@ import Evreux from './components/Regions/Ile_de_France_Haute_Normandie/Evreux'
 import Fontainebleau from './components/Regions/Ile_de_France_Haute_Normandie/Fontainebleau'
 import Gournay from './components/Regions/Ile_de_France_Haute_Normandie/Gournay'
 import La_Ferte_Vidame from './components/Regions/Ile_de_France_Haute_Normandie/La_Ferte_Vidame'
+import Le_Neubourg from './components/Regions/Ile_de_France_Haute_Normandie/Le_Neubourg'
+import Les_Andelys from './components/Regions/Ile_de_France_Haute_Normandie/Les_Andelys'
+import Longchamp from './components/Regions/Ile_de_France_Haute_Normandie/Longchamp'
+import Maisons_Laffitte from './components/Regions/Ile_de_France_Haute_Normandie/Maisons_Laffitte'
+import Mauquenchy from './components/Regions/Ile_de_France_Haute_Normandie/Mauquenchy'
 
 /* Anjou-Maine-Centre-Ouest */
 import Angers from './components/Regions/Anjou_Maine_Centre_Ouest/Angers'
 import Cholet from './components/Regions/Anjou_Maine_Centre_Ouest/Cholet'
 import Craon from './components/Regions/Anjou_Maine_Centre_Ouest/Craon'
 import Laval from './components/Regions/Anjou_Maine_Centre_Ouest/Laval'
+import Le_Lion from './components/Regions/Anjou_Maine_Centre_Ouest/Le_Lion'
+import Meslay from './components/Regions/Anjou_Maine_Centre_Ouest/Meslay'
+
+/* Ouest */
+import Maure_de_Bretagne from './components/Regions/Ouest/Maure_de_Bretagne'
+import Nantes from './components/Regions/Ouest/Nantes'
+
+/* Belgique */
+import Mons from './components/Regions/Belgique/Mons'
 
 import Regions from './components/Regions/Regions'
 import Carte from './components/Carte'
@@ -64,6 +81,8 @@ const Root = () => (
             <Route path='/arras' component={Arras}/>
             <Route path='/la_capelle' component={La_Capelle}/>
             <Route path='/le_croise' component={Le_Croise}/>
+            <Route path='/le_touquet' component={Le_Touquet}/>
+
 
             <Route path='/argentan' component={Argentan}/>
             <Route path='/cabourg' component={Cabourg}/>
@@ -72,6 +91,8 @@ const Root = () => (
             <Route path='/deauville' component={Deauville}/>
             <Route path='/dozule' component={Dozule}/>
             <Route path='/graignes' component={Graignes}/>
+            <Route path='/le_mont' component={Le_Mont}/>
+            <Route path='/lisieux' component={Lisieux}/>
 
             <Route path='/auteuil' component={Auteuil}/>
             <Route path='/bacqueville_en_caux' component={Bacqueville}/>
@@ -86,11 +107,23 @@ const Root = () => (
             <Route path='/fontainebleau' component={Fontainebleau}/>
             <Route path='/gournay' component={Gournay}/>
             <Route path='/la_ferte-vidame' component={La_Ferte_Vidame}/>
+            <Route path='/le_neubourg' component={Le_Neubourg}/>
+            <Route path='/les_andelys' component={Les_Andelys}/>
+            <Route path='/longchamp' component={Longchamp}/>
+            <Route path='/maisons_laffitte' component={Maisons_Laffitte}/>
+            <Route path='/mauquenchy' component={Mauquenchy}/>
 
             <Route path='/angers' component={Angers}/>
             <Route path='/cholet' component={Cholet}/>
             <Route path='/craon' component={Craon}/>
             <Route path='/laval' component={Laval}/>
+            <Route path='/le_lion' component={Le_Lion}/>
+            <Route path='/meslay' component={Meslay}/>
+
+            <Route path='/maure_de_bretagne' component={Maure_de_Bretagne}/>
+            <Route path='/nantes' component={Nantes}/>
+
+            <Route path='/mons' component={Mons}/>
 
             <Route path='/regions' component={Regions}/>
             <Route path='/carte' component={Carte}/>
