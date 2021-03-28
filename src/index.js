@@ -26,6 +26,7 @@ import Dozule from './components/Regions/Basse_Normandie/Dozule'
 import Graignes from './components/Regions/Basse_Normandie/Graignes'
 import Le_Mont from './components/Regions/Basse_Normandie/Le_Mont'
 import Lisieux from './components/Regions/Basse_Normandie/Lisieux'
+import Ranes from './components/Regions/Basse_Normandie/Ranes'
 
 /* Ile-de-France & Haute-Normandie */
 import Auteuil from './components/Regions/Ile_de_France_Haute_Normandie/Auteuil'
@@ -46,6 +47,7 @@ import Les_Andelys from './components/Regions/Ile_de_France_Haute_Normandie/Les_
 import Longchamp from './components/Regions/Ile_de_France_Haute_Normandie/Longchamp'
 import Maisons_Laffitte from './components/Regions/Ile_de_France_Haute_Normandie/Maisons_Laffitte'
 import Mauquenchy from './components/Regions/Ile_de_France_Haute_Normandie/Mauquenchy'
+import Rambouillet from './components/Regions/Ile_de_France_Haute_Normandie/Rambouillet'
 
 /* Anjou-Maine-Centre-Ouest */
 import Angers from './components/Regions/Anjou_Maine_Centre_Ouest/Angers'
@@ -93,6 +95,8 @@ const Root = () => (
             <Route path='/graignes' component={Graignes}/>
             <Route path='/le_mont' component={Le_Mont}/>
             <Route path='/lisieux' component={Lisieux}/>
+            <Route path='/ranes' component={Ranes}/>
+
 
             <Route path='/auteuil' component={Auteuil}/>
             <Route path='/bacqueville_en_caux' component={Bacqueville}/>
@@ -112,6 +116,7 @@ const Root = () => (
             <Route path='/longchamp' component={Longchamp}/>
             <Route path='/maisons_laffitte' component={Maisons_Laffitte}/>
             <Route path='/mauquenchy' component={Mauquenchy}/>
+            <Route path='/rambouillet' component={Rambouillet}/>
 
             <Route path='/angers' component={Angers}/>
             <Route path='/cholet' component={Cholet}/>

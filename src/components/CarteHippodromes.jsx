@@ -43,6 +43,8 @@ import maure_de_bretagnemini from "../img/maure_de_bretagne/maure_de_bretagnemin
 import meslaymini from "../img/meslay/meslaymini.jpg";
 import monsmini from "../img/mons/monsmini.jpg";
 import nantesmini from "../img/nantes/nantesmini.jpg";
+import rambouillet01min from "../img/rambouillet/rambouillet01min.jpg";
+import ranesmini from "../img/ranes/ranesmini.jpg";
 
 export default class CarteHippodromes extends Component {
   state = {
@@ -95,6 +97,8 @@ export default class CarteHippodromes extends Component {
     const meslay = [47.95002087997146, -0.5331800724213736];
     const mons = [50.48137807649974, 3.925027224786845];
     const nantes = [47.2467314, -1.5667671];
+    const rambouillet = [48.63768294022566, 1.854044368875729];
+    const ranes = [48.64199474697866, -0.2168726719970664];
 
     return (
       <div className="bodyMap">
@@ -703,9 +707,37 @@ export default class CarteHippodromes extends Component {
                   <div className="lien">
                     <div>Nantes</div>
                     <div>
+                      <img src={nantesmini} alt="nantes" className="apercu" />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={rambouillet}>
+              <Popup>
+                <Link to="/rambouillet" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Rambouillet</div>
+                    <div>
                       <img
-                        src={nantesmini}
-                        alt="nantes"
+                        src={rambouillet01min}
+                        alt="rambouillet"
+                        className="apercu"
+                      />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={ranes}>
+              <Popup>
+                <Link to="/ranes" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Rânes</div>
+                    <div>
+                      <img
+                        src={ranesmini}
+                        alt="ranes"
                         className="apercu"
                       />
                     </div>
