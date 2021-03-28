@@ -23,6 +23,13 @@ import dieppemini from "../img/dieppe/dieppemini.jpg";
 import dozulemini from "../img/dozule/dozulemini.jpg";
 import enghienmini from "../img/enghien/enghienmini.jpg";
 import evreuxmini from "../img/evreux/evreuxmini.jpg";
+import fontainebleaumini from "../img/fontainebleau/fontainebleaumini.jpg";
+import gournaymini from "../img/gournay/gournaymini.jpg";
+import graignesmini from "../img/graignes/graignesmini.jpg";
+import la_capellemini from "../img/la_capelle/la_capellemini.jpg";
+import la_ferte_vidame01min from "../img/la_ferte-vidame/la_ferte-vidame01min.jpg";
+import lavalmini from "../img/laval/lavalmini.jpg";
+import le_croisemini from "../img/le_croise/le_croisemini.jpg";
 
 export default class CarteHippodromes extends Component {
   state = {
@@ -55,6 +62,13 @@ export default class CarteHippodromes extends Component {
     const dozule = [49.24287385707446, -0.03681992937163159];
     const enghien = [48.9799237, 2.2922579];
     const evreux = [49.00912812880299, 1.1131200226011515];
+    const fontainebleau = [48.43465286377009, 2.6845060226629585];
+    const gournay_en_bray = [49.50269418157618, 1.669992652499559];
+    const graignes = [49.24099402100886, -1.2082318585732992];
+    const la_capelle = [49.96745788709066, 3.9210740150385845];
+    const la_ferte_vidame = [48.62214998449914, 0.8945448696612912];
+    const laval = [48.03654876550867, -0.79427457057011];
+    const le_croise = [50.66740342836, 3.0933489234778335]
 
     return (
       <div className="bodyMap">
@@ -343,11 +357,7 @@ export default class CarteHippodromes extends Component {
                   <div className="lien">
                     <div>Enghien</div>
                     <div>
-                      <img
-                        src={enghienmini}
-                        alt="enghien"
-                        className="apercu"
-                      />
+                      <img src={enghienmini} alt="enghien" className="apercu" />
                     </div>
                   </div>
                 </Link>
@@ -359,9 +369,113 @@ export default class CarteHippodromes extends Component {
                   <div className="lien">
                     <div>Evreux</div>
                     <div>
+                      <img src={evreuxmini} alt="evreux" className="apercu" />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={fontainebleau}>
+              <Popup>
+                <Link to="/fontainebleau" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Fontainebleau</div>
+                    <div>
                       <img
-                        src={evreuxmini}
-                        alt="evreux"
+                        src={fontainebleaumini}
+                        alt="fontainebleau"
+                        className="apercu"
+                      />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={gournay_en_bray}>
+              <Popup>
+                <Link to="/gournay" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Gournay en Bray</div>
+                    <div>
+                      <img
+                        src={gournaymini}
+                        alt="gournay_en_bray"
+                        className="apercu"
+                      />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={graignes}>
+              <Popup>
+                <Link to="/graignes" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Graignes</div>
+                    <div>
+                      <img
+                        src={graignesmini}
+                        alt="graignes"
+                        className="apercu"
+                      />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={la_capelle}>
+              <Popup>
+                <Link to="/la_capelle" className="linkHippodrome">
+                  <div className="lien">
+                    <div>La Capelle</div>
+                    <div>
+                      <img
+                        src={la_capellemini}
+                        alt="la_capelle"
+                        className="apercu"
+                      />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={la_ferte_vidame}>
+              <Popup>
+                <Link to="/la_ferte-vidame" className="linkHippodrome">
+                  <div className="lien">
+                    <div>La Ferté-Vidame</div>
+                    <div>
+                      <img
+                        src={la_ferte_vidame01min}
+                        alt="la_ferte-vidame"
+                        className="apercu"
+                      />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={laval}>
+              <Popup>
+                <Link to="/laval" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Laval</div>
+                    <div>
+                      <img src={lavalmini} alt="laval" className="apercu" />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={le_croise}>
+              <Popup>
+                <Link to="/le_croise" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Le Croisé Laroche</div>
+                    <div>
+                      <img
+                        src={le_croisemini}
+                        alt="le_croise_laroche"
                         className="apercu"
                       />
                     </div>

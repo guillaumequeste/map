@@ -12,6 +12,8 @@ import 'bootstrap/dist/js/bootstrap.bundle.min'
 import Abbeville from './components/Regions/Nord/Abbeville'
 import Amiens from './components/Regions/Nord/Amiens'
 import Arras from './components/Regions/Nord/Arras'
+import La_Capelle from './components/Regions/Nord/La_Capelle'
+import Le_Croise from './components/Regions/Nord/Le_Croise'
 
 /* Basse-Normandie */
 import Argentan from './components/Regions/Basse_Normandie/Argentan'
@@ -20,6 +22,7 @@ import Caen from './components/Regions/Basse_Normandie/Caen'
 import Clairefontaine from './components/Regions/Basse_Normandie/Clairefontaine'
 import Deauville from './components/Regions/Basse_Normandie/Deauville'
 import Dozule from './components/Regions/Basse_Normandie/Dozule'
+import Graignes from './components/Regions/Basse_Normandie/Graignes'
 
 /* Ile-de-France & Haute-Normandie */
 import Auteuil from './components/Regions/Ile_de_France_Haute_Normandie/Auteuil'
@@ -32,11 +35,15 @@ import Compiegne from './components/Regions/Ile_de_France_Haute_Normandie/Compie
 import Dieppe from './components/Regions/Ile_de_France_Haute_Normandie/Dieppe'
 import Enghien from './components/Regions/Ile_de_France_Haute_Normandie/Enghien'
 import Evreux from './components/Regions/Ile_de_France_Haute_Normandie/Evreux'
+import Fontainebleau from './components/Regions/Ile_de_France_Haute_Normandie/Fontainebleau'
+import Gournay from './components/Regions/Ile_de_France_Haute_Normandie/Gournay'
+import La_Ferte_Vidame from './components/Regions/Ile_de_France_Haute_Normandie/La_Ferte_Vidame'
 
 /* Anjou-Maine-Centre-Ouest */
 import Angers from './components/Regions/Anjou_Maine_Centre_Ouest/Angers'
 import Cholet from './components/Regions/Anjou_Maine_Centre_Ouest/Cholet'
 import Craon from './components/Regions/Anjou_Maine_Centre_Ouest/Craon'
+import Laval from './components/Regions/Anjou_Maine_Centre_Ouest/Laval'
 
 import Regions from './components/Regions/Regions'
 import Carte from './components/Carte'
@@ -55,6 +62,8 @@ const Root = () => (
             <Route path='/abbeville' component={Abbeville}/>
             <Route path='/amiens' component={Amiens}/>
             <Route path='/arras' component={Arras}/>
+            <Route path='/la_capelle' component={La_Capelle}/>
+            <Route path='/le_croise' component={Le_Croise}/>
 
             <Route path='/argentan' component={Argentan}/>
             <Route path='/cabourg' component={Cabourg}/>
@@ -62,6 +71,7 @@ const Root = () => (
             <Route path='/clairefontaine' component={Clairefontaine}/>
             <Route path='/deauville' component={Deauville}/>
             <Route path='/dozule' component={Dozule}/>
+            <Route path='/graignes' component={Graignes}/>
 
             <Route path='/auteuil' component={Auteuil}/>
             <Route path='/bacqueville_en_caux' component={Bacqueville}/>
@@ -73,10 +83,14 @@ const Root = () => (
             <Route path='/dieppe' component={Dieppe}/>
             <Route path='/enghien' component={Enghien}/>
             <Route path='/evreux' component={Evreux}/>
+            <Route path='/fontainebleau' component={Fontainebleau}/>
+            <Route path='/gournay' component={Gournay}/>
+            <Route path='/la_ferte-vidame' component={La_Ferte_Vidame}/>
 
             <Route path='/angers' component={Angers}/>
             <Route path='/cholet' component={Cholet}/>
             <Route path='/craon' component={Craon}/>
+            <Route path='/laval' component={Laval}/>
 
             <Route path='/regions' component={Regions}/>
             <Route path='/carte' component={Carte}/>
