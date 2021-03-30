@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import abbeville from "../../../img/abbeville/abbeville.jpg";
 import abbeville2 from "../../../img/abbeville/abbeville2.jpg";
 import abbeville3 from "../../../img/abbeville/abbeville3.jpg";
@@ -33,6 +34,10 @@ class Abbeville extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Abbeville Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/abbeville"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

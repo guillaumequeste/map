@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import amiens from "../../../img/amiens/amiens.jpg";
 import amiens2 from "../../../img/amiens/amiens2.jpg";
 import amiens3 from "../../../img/amiens/amiens3.jpg";
@@ -29,6 +30,10 @@ class Amiens extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Amiens Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/amiens"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

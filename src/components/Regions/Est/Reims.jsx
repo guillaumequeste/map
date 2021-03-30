@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import reims from "../../../img/reims/reims.jpg";
 import reims2 from "../../../img/reims/reims2.jpg";
 import reims3 from "../../../img/reims/reims3.jpg";
@@ -41,6 +42,10 @@ class Reims extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Reims Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/reims"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

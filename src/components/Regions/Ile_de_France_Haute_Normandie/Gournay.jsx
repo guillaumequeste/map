@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import gournay from "../../../img/gournay/gournay.jpg";
 import gournay2 from "../../../img/gournay/gournay2.jpg";
 import gournay3 from "../../../img/gournay/gournay3.jpg";
@@ -41,6 +42,10 @@ class Gournay extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Gournay en Bray Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/gournay"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

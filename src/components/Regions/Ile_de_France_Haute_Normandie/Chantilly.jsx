@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import chantilly from "../../../img/chantilly/chantilly.jpg";
 import chantilly2 from "../../../img/chantilly/chantilly2.jpg";
 import chantilly3 from "../../../img/chantilly/chantilly3.jpg";
@@ -33,6 +34,10 @@ class Chantilly extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Chantilly Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/chantilly"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

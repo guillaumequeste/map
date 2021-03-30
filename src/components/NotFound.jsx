@@ -11,7 +11,7 @@ class NotFound extends Component {
     return (
       <div>
         <Helmet
-          title={"NotFound Chevaux"}
+          title={"NotFound Hippodromes visités"}
           link={"http://decouverte.guillaumequeste.fr/notfound"}
         />
         <Header />

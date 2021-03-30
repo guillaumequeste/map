@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import saint_aubin from "../../../img/saint_aubin/saint_aubin.jpg";
 import saint_aubin2 from "../../../img/saint_aubin/saint_aubin2.jpg";
 import saint_aubin3 from "../../../img/saint_aubin/saint_aubin3.jpg";
@@ -39,6 +40,10 @@ class Saint_Aubin extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Saint-Aubin-lès-Elbeuf Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/saint-aubin"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

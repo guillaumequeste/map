@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import evreux from "../../../img/evreux/evreux.jpg";
 import evreux2 from "../../../img/evreux/evreux2.jpg";
 import evreux3 from "../../../img/evreux/evreux3.jpg";
@@ -35,6 +36,10 @@ class Evreux extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Evreux Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/evreux"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import mons from "../../../img/mons/mons.jpg";
 import mons2 from "../../../img/mons/mons2.jpg";
 import mons3 from "../../../img/mons/mons3.jpg";
@@ -41,6 +42,10 @@ class Mons extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Mons Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/mons"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

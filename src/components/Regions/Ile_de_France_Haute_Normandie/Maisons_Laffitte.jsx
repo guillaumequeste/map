@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import maisons_laffitte from "../../../img/maisons_laffitte/maisons_laffitte.jpg";
 import maisons_laffitte2 from "../../../img/maisons_laffitte/maisons_laffitte2.jpg";
 import maisons_laffitte3 from "../../../img/maisons_laffitte/maisons_laffitte3.jpg";
@@ -37,6 +38,10 @@ class Maisons_Laffitte extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Maisons-Laffitte Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/maisons-laffitte"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

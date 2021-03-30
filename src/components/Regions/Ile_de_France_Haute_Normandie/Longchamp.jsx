@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import longchamp from "../../../img/longchamp/longchamp.jpg";
 import longchamp2 from "../../../img/longchamp/longchamp2.jpg";
 import longchamp3 from "../../../img/longchamp/longchamp3.jpg";
@@ -57,6 +58,10 @@ class Longchamp extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Longchamp Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/longchamp"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

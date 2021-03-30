@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import dozule from "../../../img/dozule/dozule.jpg";
 import dozule2 from "../../../img/dozule/dozule2.jpg";
 import dozule3 from "../../../img/dozule/dozule3.jpg";
@@ -43,6 +44,10 @@ class Dozule extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Dozulé Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/dozule"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

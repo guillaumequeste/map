@@ -3,7 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
-
+import Helmet from "../../Helmet";
 import compiegne from "../../../img/compiegne/compiegne.jpg";
 import compiegne2 from "../../../img/compiegne/compiegne2.jpg";
 import compiegne3 from "../../../img/compiegne/compiegne3.jpg";
@@ -42,6 +42,10 @@ class Compiegne extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Compiègne Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/compiegne"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

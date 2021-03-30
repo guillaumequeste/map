@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import clairefontaine from "../../../img/clairefontaine/clairefontaine.jpg";
 import clairefontaine2 from "../../../img/clairefontaine/clairefontaine2.jpg";
 import clairefontaine3 from "../../../img/clairefontaine/clairefontaine3.jpg";
@@ -41,6 +42,10 @@ class Clairefontaine extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Clairefontaine Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/clairefontaine"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

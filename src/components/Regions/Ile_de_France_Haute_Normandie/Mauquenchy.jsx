@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import mauquenchy from "../../../img/mauquenchy/mauquenchy.jpg";
 import mauquenchy2 from "../../../img/mauquenchy/mauquenchy2.jpg";
 import mauquenchy3 from "../../../img/mauquenchy/mauquenchy3.jpg";
@@ -33,6 +34,10 @@ class Mauquenchy extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Mauquenchy Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/mauquenchy"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

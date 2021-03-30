@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import dieppe from "../../../img/dieppe/dieppe.jpg";
 import dieppe2 from "../../../img/dieppe/dieppe2.jpg";
 import dieppe3 from "../../../img/dieppe/dieppe3.jpg";
@@ -48,6 +49,10 @@ class Dieppe extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Dieppe Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/dieppe"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import le_lion from "../../../img/le_lion/le_lion.jpg";
 import le_lion2 from "../../../img/le_lion/le_lion2.jpg";
 import le_lion3 from "../../../img/le_lion/le_lion3.jpg";
@@ -37,6 +38,10 @@ class Le_Lion extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Le Lion d'Angers Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/le_lion"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

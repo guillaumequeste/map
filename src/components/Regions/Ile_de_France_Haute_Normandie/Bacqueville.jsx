@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import bacqueville from "../../../img/bacqueville/bacqueville.jpg";
 import bacqueville2 from "../../../img/bacqueville/bacqueville2.jpg";
 import bacqueville3 from "../../../img/bacqueville/bacqueville3.jpg";
@@ -41,6 +42,10 @@ class Bacqueville extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Bacqueville en Caux Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/bacqueville"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import maure_de_bretagne from "../../../img/maure_de_bretagne/maure_de_bretagne.jpg";
 import maure_de_bretagne2 from "../../../img/maure_de_bretagne/maure_de_bretagne2.jpg";
 import maure_de_bretagne3 from "../../../img/maure_de_bretagne/maure_de_bretagne3.jpg";
@@ -37,6 +38,10 @@ class Maure_de_Bretagne extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Maure de Bretagne Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/maure_de_bretagne"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

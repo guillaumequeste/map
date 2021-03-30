@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import les_andelys from "../../../img/les_andelys/les_andelys01.jpg";
 import les_andelys2 from "../../../img/les_andelys/les_andelys02.jpg";
 import les_andelys3 from "../../../img/les_andelys/les_andelys03.jpg";
@@ -37,6 +38,10 @@ class Les_Andelys extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Les Andelys Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/les_andelys"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

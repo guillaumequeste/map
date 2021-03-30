@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import strasbourg from "../../../img/strasbourg/strasbourg.jpg";
 import strasbourg2 from "../../../img/strasbourg/strasbourg2.jpg";
 import strasbourg3 from "../../../img/strasbourg/strasbourg3.jpg";
@@ -43,6 +44,10 @@ class Strasbourg extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Strasbourg Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/strasbourg"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import bernay from "../../../img/bernay/bernay.jpg";
 import bernay2 from "../../../img/bernay/bernay2.jpg";
 import bernay3 from "../../../img/bernay/bernay3.jpg";
@@ -41,6 +42,10 @@ class Bernay extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Bernay Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/bernay"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

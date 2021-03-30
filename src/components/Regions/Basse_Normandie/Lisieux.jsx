@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import lisieux from "../../../img/lisieux/lisieux01.jpg";
 import lisieux2 from "../../../img/lisieux/lisieux02.jpg";
 import lisieux3 from "../../../img/lisieux/lisieux03.jpg";
@@ -40,6 +41,10 @@ class Lisieux extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Lisieux Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/lisieux"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import bihorel from "../../../img/bihorel/bihorel.jpg";
 import bihorel2 from "../../../img/bihorel/bihorel2.jpg";
 import bihorel3 from "../../../img/bihorel/bihorel3.jpg";
@@ -37,6 +38,10 @@ class Bihorel extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Bihorel Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/bihorel"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

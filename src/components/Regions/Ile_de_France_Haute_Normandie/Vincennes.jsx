@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import vincennes from "../../../img/vincennes/vincennes.jpg";
 import vincennes2 from "../../../img/vincennes/vincennes2.jpg";
 import vincennes3 from "../../../img/vincennes/vincennes3.jpg";
@@ -33,6 +34,10 @@ class Vincennes extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Vincennes Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/vincennes"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

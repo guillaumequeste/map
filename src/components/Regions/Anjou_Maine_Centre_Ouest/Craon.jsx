@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import craon from "../../../img/craon/craon.jpg";
 import craon2 from "../../../img/craon/craon2.jpg";
 import craon3 from "../../../img/craon/craon3.jpg";
@@ -59,6 +60,10 @@ class Craon extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Craon Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/craon"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

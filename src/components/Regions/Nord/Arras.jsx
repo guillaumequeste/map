@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import arras from "../../../img/arras/arras01.jpg";
 import arras2 from "../../../img/arras/arras02.jpg";
 import arras3 from "../../../img/arras/arras03.jpg";
@@ -44,6 +45,10 @@ class Arras extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Arras Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/arras"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import nantes from "../../../img/nantes/nantes.jpg";
 import nantes2 from "../../../img/nantes/nantes2.jpg";
 import nantes3 from "../../../img/nantes/nantes3.jpg";
@@ -35,6 +36,10 @@ class Nantes extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Nantes Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/nantes"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

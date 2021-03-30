@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import le_touquet from "../../../img/le_touquet/le_touquet.jpg";
 import le_touquet2 from "../../../img/le_touquet/le_touquet2.jpg";
 import le_touquet3 from "../../../img/le_touquet/le_touquet3.jpg";
@@ -43,6 +44,10 @@ class Le_Touquet extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Le Touquet Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/le_touquet"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

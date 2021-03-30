@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import rambouillet from "../../../img/rambouillet/rambouillet01.jpg";
 import rambouillet2 from "../../../img/rambouillet/rambouillet02.jpg";
 import rambouillet3 from "../../../img/rambouillet/rambouillet03.jpg";
@@ -50,6 +51,10 @@ class Rambouillet extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Rambouillet Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/rambouillet"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

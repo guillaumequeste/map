@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import le_neubourg from "../../../img/le_neubourg/le_neubourg.jpg";
 import le_neubourg2 from "../../../img/le_neubourg/le_neubourg2.jpg";
 import le_neubourg3 from "../../../img/le_neubourg/le_neubourg3.jpg";
@@ -29,6 +30,10 @@ class Le_Neubourg extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Le Neubourg Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/le_neubourg"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import vire from "../../../img/vire/vire.jpg";
 import vire2 from "../../../img/vire/vire2.jpg";
 import vire3 from "../../../img/vire/vire3.jpg";
@@ -47,6 +48,10 @@ class Vire extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Vire Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/vire"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import argentan from "../../../img/argentan/argentan.jpg";
 import argentan2 from "../../../img/argentan/argentan2.jpg";
 import argentan3 from "../../../img/argentan/argentan3.jpg";
@@ -39,6 +40,10 @@ class Argentan extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Argentan Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/argentan"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

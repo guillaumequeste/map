@@ -8,7 +8,7 @@ class Contact extends Component {
     return (
       <div>
         <Helmet
-          title={"Contact Chevaux"}
+          title={"Contact Hippodromes visités"}
           link={"http://chevaux.guillaumequeste.fr/contact"}
         />
         <Header />

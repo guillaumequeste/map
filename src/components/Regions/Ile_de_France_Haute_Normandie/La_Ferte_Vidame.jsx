@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import la_ferte_vidame from "../../../img/la_ferte-vidame/la_ferte-vidame01.jpg";
 import la_ferte_vidame2 from "../../../img/la_ferte-vidame/la_ferte-vidame02.jpg";
 import la_ferte_vidame3 from "../../../img/la_ferte-vidame/la_ferte-vidame03.jpg";
@@ -34,6 +35,10 @@ class La_Ferte_Vidame extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"La Ferté-Vidame Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/la_ferte"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import fontainebleau from "../../../img/fontainebleau/fontainebleau.jpg";
 import fontainebleau2 from "../../../img/fontainebleau/fontainebleau2.jpg";
 import fontainebleau3 from "../../../img/fontainebleau/fontainebleau3.jpg";
@@ -33,6 +34,10 @@ class Fontainebleau extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Fontainebleau Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/fontainebleau"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

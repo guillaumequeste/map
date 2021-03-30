@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import angers from "../../../img/angers/angers.jpg";
 import angers2 from "../../../img/angers/angers2.jpg";
 import angers3 from "../../../img/angers/angers3.jpg";
@@ -35,6 +36,10 @@ class Angers extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Angers Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/angers"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

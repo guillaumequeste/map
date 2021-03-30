@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import cabourg from "../../../img/cabourg/cabourg.jpg";
 import cabourg2 from "../../../img/cabourg/cabourg2.jpg";
 import cabourg3 from "../../../img/cabourg/cabourg3.jpg";
@@ -45,6 +46,10 @@ class Cabourg extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Cabourg Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/cabourg"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

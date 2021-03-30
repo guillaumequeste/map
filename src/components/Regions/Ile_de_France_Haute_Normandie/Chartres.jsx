@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import chartres from "../../../img/chartres/chartres.jpg";
 import chartres2 from "../../../img/chartres/chartres2.jpg";
 import chartres3 from "../../../img/chartres/chartres3.jpg";
@@ -33,6 +34,10 @@ class Chartres extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Chartres Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/chartres"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

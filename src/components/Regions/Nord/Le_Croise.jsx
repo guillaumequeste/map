@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import le_croise from "../../../img/le_croise/le_croise.jpg";
 import le_croise2 from "../../../img/le_croise/le_croise2.jpg";
 import le_croise3 from "../../../img/le_croise/le_croise3.jpg";
@@ -39,6 +40,10 @@ class Le_Croise extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Le Croisé Laroche Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/le_croise"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

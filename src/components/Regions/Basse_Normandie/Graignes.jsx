@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import graignes from "../../../img/graignes/graignes.jpg";
 import graignes2 from "../../../img/graignes/graignes2.jpg";
 import graignes3 from "../../../img/graignes/graignes3.jpg";
@@ -43,6 +44,10 @@ class Graignes extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Graignes Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/graignes"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

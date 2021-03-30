@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import auteuil from "../../../img/auteuil/auteuil.jpg";
 import auteuil2 from "../../../img/auteuil/auteuil2.jpg";
 import auteuil3 from "../../../img/auteuil/auteuil3.jpg";
@@ -39,6 +40,10 @@ class Auteuil extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Auteuil Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/auteuil"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

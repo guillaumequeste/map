@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import saint_malo from "../../../img/saint-malo/saint-malo.jpg";
 import saint_malo2 from "../../../img/saint-malo/saint-malo2.jpg";
 import saint_malo3 from "../../../img/saint-malo/saint-malo3.jpg";
@@ -33,6 +34,10 @@ class Saint_Malo extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Saint-Malo Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/saint-malo"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

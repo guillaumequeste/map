@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import ranes from "../../../img/ranes/ranes.jpg";
 import ranes2 from "../../../img/ranes/ranes2.jpg";
 import ranes3 from "../../../img/ranes/ranes3.jpg";
@@ -37,6 +38,10 @@ class Ranes extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Rânes Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/ranes"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

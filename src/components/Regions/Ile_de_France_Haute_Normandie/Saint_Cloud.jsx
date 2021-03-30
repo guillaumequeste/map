@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import saint_cloud from "../../../img/saint-cloud/saint-cloud.jpg";
 import saint_cloud2 from "../../../img/saint-cloud/saint-cloud2.jpg";
 import saint_cloud3 from "../../../img/saint-cloud/saint-cloud3.jpg";
@@ -25,6 +26,10 @@ class Saint_Cloud extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Saint-Cloud Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/saint-cloud"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

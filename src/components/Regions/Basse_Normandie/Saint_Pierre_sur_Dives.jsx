@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import saint_pierre_sur_dives from "../../../img/saint-pierre-sur-dives/saint-pierre-sur-dives.jpg";
 import saint_pierre_sur_dives2 from "../../../img/saint-pierre-sur-dives/saint-pierre-sur-dives2.jpg";
 import saint_pierre_sur_dives3 from "../../../img/saint-pierre-sur-dives/saint-pierre-sur-dives3.jpg";
@@ -41,6 +42,10 @@ class Saint_Pierre_sur_Dives extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Saint-Pierre-sur-Dives Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/saint-pierre-sur-dives"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

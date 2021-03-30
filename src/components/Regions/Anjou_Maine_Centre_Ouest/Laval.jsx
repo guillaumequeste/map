@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import laval from "../../../img/laval/laval.jpg";
 import laval2 from "../../../img/laval/laval2.jpg";
 import laval3 from "../../../img/laval/laval3.jpg";
@@ -43,6 +44,10 @@ class Laval extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Laval Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/laval"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

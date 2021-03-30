@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import meslay from "../../../img/meslay/meslay.jpg";
 import meslay2 from "../../../img/meslay/meslay2.jpg";
 import meslay3 from "../../../img/meslay/meslay3.jpg";
@@ -37,6 +38,10 @@ class Meslay extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Meslay du Maine Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/meslay"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

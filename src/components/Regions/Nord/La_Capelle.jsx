@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import la_capelle from "../../../img/la_capelle/la_capelle.jpg";
 import la_capelle2 from "../../../img/la_capelle/la_capelle2.jpg";
 import la_capelle3 from "../../../img/la_capelle/la_capelle3.jpg";
@@ -43,6 +44,10 @@ class La_Capelle extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"La Capelle Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/la_capelle"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

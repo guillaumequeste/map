@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import enghien from "../../../img/enghien/enghien.jpg";
 import enghien2 from "../../../img/enghien/enghien2.jpg";
 import enghien3 from "../../../img/enghien/enghien3.jpg";
@@ -25,6 +26,10 @@ class Enghien extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Enghien Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/enghien"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

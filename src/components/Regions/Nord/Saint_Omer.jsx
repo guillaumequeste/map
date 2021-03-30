@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import saint_omer from "../../../img/saint-omer/saint-omer.jpg";
 import saint_omer2 from "../../../img/saint-omer/saint-omer2.jpg";
 import saint_omer3 from "../../../img/saint-omer/saint-omer3.jpg";
@@ -25,6 +26,10 @@ class Saint_Omer extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Saint-Omer Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/saint-omer"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

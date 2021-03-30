@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import cholet from "../../../img/cholet/cholet.jpg";
 import cholet2 from "../../../img/cholet/cholet2.jpg";
 import cholet3 from "../../../img/cholet/cholet3.jpg";
@@ -39,6 +40,10 @@ class Cholet extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Cholet Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/cholet"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

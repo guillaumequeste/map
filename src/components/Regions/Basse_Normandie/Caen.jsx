@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import caen from "../../../img/caen/caen.jpg";
 import caen2 from "../../../img/caen/caen2.jpg";
 import caen3 from "../../../img/caen/caen3.jpg";
@@ -41,6 +42,10 @@ class Caen extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Caen Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/caen"}
+        />
         <Header />
         <Footer />
         <div className="fiche">

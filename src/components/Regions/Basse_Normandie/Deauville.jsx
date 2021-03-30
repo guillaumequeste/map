@@ -3,6 +3,7 @@ import Header from "../../Header";
 import Footer from "../../Footer";
 import Zoom from "react-reveal/Zoom";
 import Roll from "react-reveal/Roll";
+import Helmet from "../../Helmet";
 import deauville from "../../../img/deauville/deauville01.jpg";
 import deauville2 from "../../../img/deauville/deauville02.jpg";
 import deauville3 from "../../../img/deauville/deauville03.jpg";
@@ -44,6 +45,10 @@ class Deauville extends Component {
   render() {
     return (
       <div>
+        <Helmet
+          title={"Deauville Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/deauville"}
+        />
         <Header />
         <Footer />
         <div className="fiche">
