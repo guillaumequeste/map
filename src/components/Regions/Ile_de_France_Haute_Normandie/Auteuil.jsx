@@ -232,7 +232,7 @@ class Auteuil extends Component {
           <Zoom>
             <div className="image">
               <img
-                src={auteuil6}
+                src={auteuil16}
                 alt="auteuil16"
                 className="tailleImagePlus"
               />
@@ -241,7 +241,7 @@ class Auteuil extends Component {
           <Zoom>
             <div className="image">
               <img
-                src={auteuil7}
+                src={auteuil17}
                 alt="auteuil17"
                 className="tailleImagePlus"
               />

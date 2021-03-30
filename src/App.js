@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Helmet from "./components/Helmet";
 import { Link } from "react-router-dom";
+import map from "./img/map.jpeg";
 
 const App = (props) => (
   <>
@@ -15,24 +16,29 @@ const App = (props) => (
     <Footer accueil={true}/>
     <div className="app">
       <div className="ligne">
-        <Link to="/" className="case">
+        <div className="case caseHippodromes">
           <div className="titleCase">
-            <span>accueil</span>
+            <span>Hippodromes</span>
           </div>
-        </Link>
-        <Link to="/regions" className="case">
+        </div>
+        <Link to="/regions" className="case caseLink">
           <div className="titleCase">
             <span>Régions</span>
           </div>
         </Link>
       </div>
       <div className="ligne">
-        <Link to="/carte" className="case">
+        <Link to="/carte" className="case caseLink caseMap">
           <div className="titleCase">
             <span>Carte</span>
           </div>
+          <img
+                src={map}
+                alt="argentan6"
+                
+              />
         </Link>
-        <Link to="/liste" className="case">
+        <Link to="/liste" className="case caseLink">
           <div className="titleCase">
             <span>Liste</span>
           </div>

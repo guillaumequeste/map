@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Oleo+Script');
 :root {
-    --background-color: rgb(194, 150, 100);
+    --background-color: rgb(148, 140, 129);
 }
 
 
@@ -47,15 +47,56 @@ body {
     width: 50%;
     height: 100%;
     color: white;
+}
+
+.case:hover {
+    text-decoration: none;
+}
+
+.caseLink {
+    border-radius: 10px;
     border: solid 1px white;
+    opacity: 0.4;
+}
+
+.caseLink:hover {
+    opacity: 1;
 }
 
 .titleCase {
     margin: auto;
+    font-family: 'Oleo Script', sans-serif;
+    font-size: 1.6em;
 }
 
+@media screen and (min-width: 768px) {
+    .titleCase {
+        font-size: 3em;
+    }
+}
 
-/* Carte ------------------------------------------------------------------------ */
+.caseMap {
+    position: relative;
+    overflow: hidden;
+}
+
+.caseMap .titleCase {
+    position: relative;
+    z-index: 2;
+    color: black;
+}
+
+.caseMap img {
+    position: absolute;
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 768px) {
+    .caseMap img {
+        width: 100%;
+        height: 100%;
+    }
+}
 
 
 /* CarteHippodromes ------------------------------------------------------------------------ */
@@ -68,8 +109,9 @@ body {
 
 .titreCarte {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2em;
     padding: 5% 0;
+    font-family: 'Oleo Script', sans-serif;
 }
 
 @media screen and (min-width: 540px) {
@@ -199,10 +241,10 @@ body {
 }
 
 
-/* Hippodrome détail */
+/* Hippodrome détail --------------------------------------------------------------- */
 
 .fiche {
-    background-color: #948c81;
+    background-color: var(--background-color);
     display: flex;
     height: 95vh;
     padding-top: 3%;
