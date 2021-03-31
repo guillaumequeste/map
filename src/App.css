@@ -489,12 +489,15 @@ body {
     height: 75px;
     display: flex;
     margin-bottom: 2%;
-    background-color: rgb(179, 172, 172);
     border-radius: 10px;
     border: solid 2px white;
     color: black;
     font-size: 1.5em;
     font-family: 'Oleo Script', sans-serif;
+}
+
+.linkRegion:hover {
+    text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -508,4 +511,63 @@ body {
     text-decoration: none;
     background-color: black;
     color: white;
+}
+
+.linkRegionHauteNormandie {
+    background-color: rgb(40, 40, 204);
+    color: white;
+}
+
+.linkRegionHauteNormandie:hover {
+    color: yellow;
+}
+
+.titleLinkRegion {
+    margin: auto;
+}
+
+.linkRegionNord {
+    background-color: rgb(21, 146, 21);
+    color: white;
+}
+
+.linkRegionNord:hover {
+    color: yellow;
+}
+
+.linkRegionBasseNormandie {
+    background-color: rgb(238, 142, 32);
+    color: white;
+}
+
+.linkRegionAnjouMaineCentreOuest {
+    background-color: rgb(223, 223, 0);
+    color: black;
+}
+
+.linkRegionOuest {
+    background-color: rgb(199, 0, 0);
+    color: white;
+}
+
+.linkRegionOuest:hover {
+    color: yellow;
+}
+
+.linkRegionEst {
+    background-color: purple;
+    color: white;
+}
+
+.linkRegionEst:hover {
+    color: yellow;
+}
+
+.linkRegionBelgique {
+    background-color: rgb(143, 91, 31);
+    color: white;
+}
+
+.linkRegionBelgique:hover {
+    color: yellow;
 }

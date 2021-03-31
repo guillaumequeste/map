@@ -18,40 +18,40 @@ class Regions extends Component {
           <div className="liste">
             <h1 className="titleRegions">Régions</h1>
             <p>
-              <Link to="/ile-de-france_haute-normandie" className="linkRegion">
-                <span className="titleLinkListe">
+              <Link to="/ile-de-france_haute-normandie" className="linkRegion linkRegionHauteNormandie">
+                <span className="titleLinkRegion">
                   Ile-de-France & Haute-Normandie
                 </span>
               </Link>
             </p>
             <p>
-              <Link to="/nord" className="linkRegion">
-                <span className="titleLinkListe">Nord</span>
+              <Link to="/nord" className="linkRegion linkRegionNord">
+                <span className="titleLinkRegion">Nord</span>
               </Link>
             </p>
             <p>
-              <Link to="/basse-normandie" className="linkRegion">
+              <Link to="/basse-normandie" className="linkRegion linkRegionBasseNormandie">
                 <span className="titleLinkListe">Basse-Normandie</span>
               </Link>
             </p>
             <p>
-              <Link to="/anjou-maine-centre-ouest" className="linkRegion">
-                <span className="titleLinkListe">Anjou-Maine-Centre-Ouest</span>
+              <Link to="/anjou-maine-centre-ouest" className="linkRegion linkRegionAnjouMaineCentreOuest">
+                <span className="titleLinkRegion">Anjou-Maine-Centre-Ouest</span>
               </Link>
             </p>
             <p>
-              <Link to="/ouest" className="linkRegion">
-                <span className="titleLinkListe">Ouest</span>
+              <Link to="/ouest" className="linkRegion linkRegionOuest">
+                <span className="titleLinkRegion">Ouest</span>
               </Link>
             </p>
             <p>
-              <Link to="/est" className="linkRegion">
-                <span className="titleLinkListe">Est</span>
+              <Link to="/est" className="linkRegion linkRegionEst">
+                <span className="titleLinkRegion">Est</span>
               </Link>
             </p>
             <p>
-              <Link to="/belgique" className="linkRegion">
-                <span className="titleLinkListe">Belgique</span>
+              <Link to="/belgique" className="linkRegion linkRegionBelgique">
+                <span className="titleLinkRegion">Belgique</span>
               </Link>
             </p>
           </div>
