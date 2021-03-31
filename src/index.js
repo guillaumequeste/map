@@ -18,6 +18,7 @@ import Le_Touquet from './components/Regions/Nord/Le_Touquet'
 import Saint_Omer from './components/Regions/Nord/Saint_Omer'
 
 /* Basse-Normandie */
+import Accueil_Basse_Normandie from './components/Regions/Basse_Normandie/Accueil_Basse_Normandie'
 import Argentan from './components/Regions/Basse_Normandie/Argentan'
 import Cabourg from './components/Regions/Basse_Normandie/Cabourg'
 import Caen from './components/Regions/Basse_Normandie/Caen'
@@ -75,6 +76,7 @@ import Reims from './components/Regions/Est/Reims'
 import Strasbourg from './components/Regions/Est/Strasbourg'
 
 /* Belgique */
+import Accueil_Belgique from './components/Regions/Belgique/Accueil_Belgique'
 import Mons from './components/Regions/Belgique/Mons'
 
 import Regions from './components/Regions/Regions'
@@ -99,6 +101,7 @@ const Root = () => (
             <Route path='/le_touquet' component={Le_Touquet}/>
             <Route path='/saint-omer' component={Saint_Omer}/>
 
+            <Route path='/basse-normandie' component={Accueil_Basse_Normandie}/>
             <Route path='/argentan' component={Argentan}/>
             <Route path='/cabourg' component={Cabourg}/>
             <Route path='/caen' component={Caen}/>
@@ -151,6 +154,7 @@ const Root = () => (
             <Route path='/reims' component={Reims}/>
             <Route path='/strasbourg' component={Strasbourg}/>
 
+            <Route path='/belgique' component={Accueil_Belgique}/>
             <Route path='/mons' component={Mons}/>
 
             <Route path='/regions' component={Regions}/>

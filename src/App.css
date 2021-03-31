@@ -681,6 +681,34 @@ body {
     background-image: url("./img/meslay/meslay.jpg");
 }
 
+.hippo_argentan:hover {
+    background-image: url("./img/argentan/argentan.jpg");
+}
+
+.hippo_cabourg:hover {
+    background-image: url("./img/cabourg/cabourg.jpg");
+}
+
+.hippo_caen:hover {
+    background-image: url("./img/caen/caen.jpg");
+}
+
+.hippo_clairefontaine:hover {
+    background-image: url("./img/clairefontaine/clairefontaine.jpg");
+}
+
+.hippo_deauville:hover {
+    background-image: url("./img/deauville/deauville01.jpg");
+}
+
+.hippo_dozule:hover {
+    background-image: url("./img/dozule/dozule.jpg");
+}
+
+.hippo_mons:hover {
+    background-image: url("./img/mons/mons.jpg");
+}
+
 
 /* Régions ------------------------------------------------------------------------ */
 

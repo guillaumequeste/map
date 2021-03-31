@@ -4,13 +4,13 @@ import Helmet from "../../Helmet";
 import Footer from "../../Footer";
 import { Link } from "react-router-dom";
 
-class Accueil_Anjou_Maine_Centre_Ouest extends Component {
+class Accueil_Basse_Normandie extends Component {
   render() {
     return (
       <div>
         <Helmet
-          title={"Accueil Anjou Maine Centre Ouest Hippodromes visités"}
-          link={"http://map.guillaumequeste.fr/anjou_maine"}
+          title={"Accueil Basse-Normandie Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/basse-normandie"}
         />
         <Header />
         <Footer regions={true} />
@@ -20,39 +20,39 @@ class Accueil_Anjou_Maine_Centre_Ouest extends Component {
 
             <div className="ligneRegion">
               <div className="caseRegion">
-                <Link to="/angers" className="hippo hippo_angers">
-                  <span>Angers</span>
+                <Link to="/argentan" className="hippo hippo_argentan">
+                  <span>Argentan</span>
                 </Link>
               </div>
               <div className="caseRegion">
-                <Link to="/cholet" className="hippo hippo_cholet">
-                  <span>Cholet</span>
-                </Link>
-              </div>
-            </div>
-
-            <div className="ligneRegion">
-              <div className="caseRegion">
-                <Link to="/craon" className="hippo hippo_craon">
-                  <span>Craon</span>
-                </Link>
-              </div>
-              <div className="caseRegion">
-              <Link to="/laval" className="hippo hippo_laval">
-                  <span>Laval</span>
+                <Link to="/cabourg" className="hippo hippo_cabourg">
+                  <span>Cabourg</span>
                 </Link>
               </div>
             </div>
 
             <div className="ligneRegion">
               <div className="caseRegion">
-                <Link to="/le_lion" className="hippo hippo_le_lion">
-                  <span>Le Lion d'Angers</span>
+                <Link to="/caen" className="hippo hippo_caen">
+                  <span>Caen</span>
                 </Link>
               </div>
               <div className="caseRegion">
-              <Link to="/meslay" className="hippo hippo_meslay">
-                  <span>Meslay-du-Maine</span>
+              <Link to="/clairefontaine" className="hippo hippo_clairefontaine">
+                  <span>Clairefontaine</span>
+                </Link>
+              </div>
+            </div>
+
+            <div className="ligneRegion">
+              <div className="caseRegion">
+                <Link to="/deauville" className="hippo hippo_deauville">
+                  <span>Deauville</span>
+                </Link>
+              </div>
+              <div className="caseRegion">
+              <Link to="/dozule" className="hippo hippo_dozule">
+                  <span>Dozulé</span>
                 </Link>
               </div>
             </div>
@@ -64,4 +64,4 @@ class Accueil_Anjou_Maine_Centre_Ouest extends Component {
   }
 }
 
-export default Accueil_Anjou_Maine_Centre_Ouest;
+export default Accueil_Basse_Normandie;
