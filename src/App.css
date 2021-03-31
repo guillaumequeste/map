@@ -119,6 +119,23 @@ body {
     }
 }
 
+.caseRegions {
+    background-color: rgb(94, 88, 88);
+}
+
+@media screen and (min-width: 1026px) {
+    .caseRegions {
+        background-color: rgb(128, 114, 114);
+        color: black;
+        opacity: 0.4;
+    }
+    .caseRegions:hover {
+        background-color: black;
+        color: white;
+        opacity: 1;
+    }
+}
+
 
 /* CarteHippodromes ------------------------------------------------------------------------ */
 
@@ -476,6 +493,7 @@ body {
     display: flex;
     min-height: 93vh;
     background-color: var(--background-color);
+    padding-bottom: 20%;
 }
 
 .titleRegions {
@@ -522,6 +540,23 @@ body {
     color: yellow;
 }
 
+@media screen and (min-width: 1026px) {
+    .linkRegionHauteNormandie {
+        position: absolute;
+        top: 220px;
+        left: 550px;
+        width: 100px;
+        height: 70px;
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .linkRegionHauteNormandie {
+        top: 280px;
+    }
+}
+
 .titleLinkRegion {
     margin: auto;
 }
@@ -535,14 +570,63 @@ body {
     color: yellow;
 }
 
+@media screen and (min-width: 1026px) {
+    .linkRegionNord {
+        position: absolute;
+        top: 170px;
+        left: 600px;
+        width: 100px;
+        height: 40px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .linkRegionNord {
+        top: 230px;
+    }
+}
+
 .linkRegionBasseNormandie {
     background-color: rgb(238, 142, 32);
     color: white;
 }
 
+@media screen and (min-width: 1026px) {
+    .linkRegionBasseNormandie {
+        position: absolute;
+        top: 250px;
+        left: 440px;
+        width: 100px;
+        height: 40px;
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .linkRegionBasseNormandie {
+        top: 310px;
+    }
+}
+
 .linkRegionAnjouMaineCentreOuest {
     background-color: rgb(223, 223, 0);
     color: black;
+}
+
+@media screen and (min-width: 1026px) {
+    .linkRegionAnjouMaineCentreOuest {
+        position: absolute;
+        top: 300px;
+        left: 450px;
+        width: 160px;
+        height: 90px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .linkRegionAnjouMaineCentreOuest {
+        top: 360px;
+    }
 }
 
 .linkRegionOuest {
@@ -554,6 +638,23 @@ body {
     color: yellow;
 }
 
+@media screen and (min-width: 1026px) {
+    .linkRegionOuest {
+        position: absolute;
+        top: 300px;
+        left: 390px;
+        width: 50px;
+        height: 90px;
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .linkRegionOuest {
+        top: 360px;
+    }
+}
+
 .linkRegionEst {
     background-color: purple;
     color: white;
@@ -563,6 +664,22 @@ body {
     color: yellow;
 }
 
+@media screen and (min-width: 1026px) {
+    .linkRegionEst {
+        position: absolute;
+        top: 220px;
+        left: 660px;
+        width: 170px;
+        height: 70px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .linkRegionEst {
+        top: 280px;
+    }
+}
+
 .linkRegionBelgique {
     background-color: rgb(143, 91, 31);
     color: white;
@@ -570,4 +687,86 @@ body {
 
 .linkRegionBelgique:hover {
     color: yellow;
+}
+
+@media screen and (min-width: 1026px) {
+    .linkRegionBelgique {
+        position: absolute;
+        top: 140px;
+        left: 710px;
+        width: 75px;
+        height: 55px;
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .linkRegionBelgique {
+        top: 200px;
+    }
+}
+
+@media screen and (min-width: 1026px) {
+    .linkRegionCentreEst {
+        position: absolute;
+        top: 300px;
+        left: 620px;
+        width: 190px;
+        height: 90px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .linkRegionCentreEst {
+        top: 360px;
+    }
+}
+
+@media screen and (min-width: 1026px) {
+    .linkRegionSudOuest {
+        position: absolute;
+        top: 400px;
+        left: 440px;
+        width: 200px;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .linkRegionSudOuest {
+        top: 460px;
+    }
+}
+
+@media screen and (min-width: 1026px) {
+    .linkRegionSudEst {
+        position: absolute;
+        top: 400px;
+        left: 650px;
+        width: 180px;
+        height: 70px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .linkRegionSudEst {
+        top: 460px;
+    }
+}
+
+@media screen and (min-width: 1026px) {
+    .linkRegionCorse {
+        position: absolute;
+        top: 490px;
+        left: 800px;
+        width: 25px;
+        height: 30px;
+        font-size: 0.5em;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .linkRegionCorse {
+        top: 550px;
+    }
 }
