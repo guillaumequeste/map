@@ -23,7 +23,7 @@ const App = (props) => (
             <span>Hippodromes</span>
           </div>
         </div>
-        <Link to="/carte" className="case caseLink caseRegions">
+        <Link to="/regions" className="case caseLink caseRegions">
           <div className="titleCase">
             <span>Regions</span>
           </div>
@@ -45,7 +45,7 @@ const App = (props) => (
 
               />
         </Link>
-        <Link to="/carte" className="case caseLink caseList">
+        <Link to="/liste" className="case caseLink caseList">
           <div className="titleCase">
             <span>Liste</span>
           </div>

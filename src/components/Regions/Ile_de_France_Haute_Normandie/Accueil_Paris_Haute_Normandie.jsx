@@ -1,25 +1,25 @@
 import React, { Component } from "react";
-import Header from "../Header";
-import Helmet from "../Helmet";
-import Footer from "../Footer";
+import Header from "../../Header";
+import Helmet from "../../Helmet";
+import Footer from "../../Footer";
 import { Link } from "react-router-dom";
 
-class Regions extends Component {
+class Accueil_Paris_Haute_Normandie extends Component {
   render() {
     return (
       <div>
         <Helmet
-          title={"Régions Hippodromes visités"}
-          link={"http://map.guillaumequeste.fr/regions"}
+          title={"Accueil Paris Haute-Normandie Hippodromes visités"}
+          link={"http://map.guillaumequeste.fr/paris_haute-normandie"}
         />
         <Header />
         <Footer regions={true} />
         <div className="divRegions">
           <div className="liste">
-           <h1 className="titleRegions">Régions</h1>
+           <h1 className="titleRegions">accueil</h1>
 
             <Link
-              to="/paris_haute-normandie"
+              to="/ile-de-france_haute-normandie"
               className="linkRegion linkRegionHauteNormandie"
             >
               <span className="titleLinkRegion">
@@ -81,4 +81,4 @@ class Regions extends Component {
   }
 }
 
-export default Regions;
+export default Accueil_Paris_Haute_Normandie;

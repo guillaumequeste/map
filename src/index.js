@@ -32,6 +32,7 @@ import Saint_Pierre_sur_Dives from './components/Regions/Basse_Normandie/Saint_P
 import Vire from './components/Regions/Basse_Normandie/Vire'
 
 /* Ile-de-France & Haute-Normandie */
+import Accueil_Paris_Haute_Normandie from './components/Regions/Ile_de_France_Haute_Normandie/Accueil_Paris_Haute_Normandie'
 import Auteuil from './components/Regions/Ile_de_France_Haute_Normandie/Auteuil'
 import Bacqueville from './components/Regions/Ile_de_France_Haute_Normandie/Bacqueville'
 import Bernay from './components/Regions/Ile_de_France_Haute_Normandie/Bernay'
@@ -110,6 +111,7 @@ const Root = () => (
             <Route path='/saint-pierre-sur-dives' component={Saint_Pierre_sur_Dives}/>
             <Route path='/vire' component={Vire}/>
 
+            <Route path='/paris_haute-normandie' component={Accueil_Paris_Haute_Normandie}/>
             <Route path='/auteuil' component={Auteuil}/>
             <Route path='/bacqueville_en_caux' component={Bacqueville}/>
             <Route path='/bernay' component={Bernay}/>
