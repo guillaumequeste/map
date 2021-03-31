@@ -57,6 +57,7 @@ import Saint_Cloud from './components/Regions/Ile_de_France_Haute_Normandie/Sain
 import Vincennes from './components/Regions/Ile_de_France_Haute_Normandie/Vincennes'
 
 /* Anjou-Maine-Centre-Ouest */
+import Accueil_Anjou_Maine_Centre_Ouest from './components/Regions/Anjou_Maine_Centre_Ouest/Accueil_Anjou_Maine_Centre_Ouest'
 import Angers from './components/Regions/Anjou_Maine_Centre_Ouest/Angers'
 import Cholet from './components/Regions/Anjou_Maine_Centre_Ouest/Cholet'
 import Craon from './components/Regions/Anjou_Maine_Centre_Ouest/Craon'
@@ -135,6 +136,7 @@ const Root = () => (
             <Route path='/saint-cloud' component={Saint_Cloud}/>
             <Route path='/vincennes' component={Vincennes}/>
 
+            <Route path='/anjou_maine' component={Accueil_Anjou_Maine_Centre_Ouest}/>
             <Route path='/angers' component={Angers}/>
             <Route path='/cholet' component={Cholet}/>
             <Route path='/craon' component={Craon}/>

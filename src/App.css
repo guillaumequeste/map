@@ -657,6 +657,30 @@ body {
     background-image: url("./img/vincennes/vincennes.jpg");
 }
 
+.hippo_angers:hover {
+    background-image: url("./img/angers/angers.jpg");
+}
+
+.hippo_cholet:hover {
+    background-image: url("./img/cholet/cholet.jpg");
+}
+
+.hippo_craon:hover {
+    background-image: url("./img/craon/craon.jpg");
+}
+
+.hippo_laval:hover {
+    background-image: url("./img/laval/laval.jpg");
+}
+
+.hippo_le_lion:hover {
+    background-image: url("./img/le_lion/le_lion.jpg");
+}
+
+.hippo_meslay:hover {
+    background-image: url("./img/meslay/meslay.jpg");
+}
+
 
 /* Régions ------------------------------------------------------------------------ */
 

@@ -39,7 +39,7 @@ class Regions extends Component {
             </Link>
 
             <Link
-              to="/anjou-maine-centre-ouest"
+              to="/anjou_maine"
               className="linkRegion linkRegionAnjouMaineCentreOuest"
             >
               <span className="titleLinkRegion">Anjou-Maine-Centre-Ouest</span>
