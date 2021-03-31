@@ -474,7 +474,38 @@ body {
 
 .divRegions {
     display: flex;
-    height: 93vh;
+    min-height: 93vh;
     background-color: var(--background-color);
-    font-family: 'Lato', sans-serif;
+}
+
+.titleRegions {
+    font-family: 'Oleo Script', sans-serif;
+    margin-bottom: 2%;
+}
+
+.linkRegion {
+    margin: auto;
+    width: 70%;
+    height: 75px;
+    display: flex;
+    margin-bottom: 2%;
+    background-color: rgb(179, 172, 172);
+    border-radius: 10px;
+    border: solid 2px white;
+    color: black;
+    font-size: 1.5em;
+    font-family: 'Oleo Script', sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+    .linkListe {
+        height: 100px;
+        margin-bottom: 1%;
+    }
+}
+
+.linkListe:hover {
+    text-decoration: none;
+    background-color: black;
+    color: white;
 }

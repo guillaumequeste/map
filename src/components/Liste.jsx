@@ -16,15 +16,16 @@ class Liste extends Component {
         <Footer liste={true} />
         <div className="bodyListe">
           <div className="liste">
-            <Link to="/Abbeville" className="linkListe">
-              <span className="titleLinkListe">Abbeville</span>
-            </Link>
-
-            <div className="bloc">
+            <p>
+              <Link to="/Abbeville" className="linkListe">
+                <span className="titleLinkListe">Abbeville</span>
+              </Link>
+            </p>
+            <p>
               <Link to="/Amiens" className="linkListe">
                 <span className="titleLinkListe">Amiens</span>
               </Link>
-            </div>
+            </p>
             <p>
               <Link to="/Angers" className="linkListe">
                 <span className="titleLinkListe">Angers</span>
