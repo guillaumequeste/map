@@ -505,6 +505,159 @@ body {
 }
 
 
+/* Région ------------------------------------------------------------------------ */
+
+.titleRegion {
+    font-family: 'Oleo Script', sans-serif;
+    font-size: 1.6em;
+}
+
+@media screen and (min-width: 768px) {
+    .titleRegion {
+        font-size: 2em;
+    }
+}
+
+.ligneRegion {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .ligneRegion {
+        flex-direction: row;
+    }
+}
+
+.caseRegion {
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+@media screen and (min-width: 768px) {
+    .caseRegion {
+        width: 50%;
+        height: 200px;
+    }
+}
+
+.hippo {
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    border: solid 2px white;
+    background-color: rgb(160, 153, 153);
+    display: flex;
+}
+
+.hippo:hover {
+    background-size: cover;
+    background-position: center;
+}
+
+.hippo span {
+    margin: auto;
+    color: white;
+    font-size: 2em;
+    font-family: 'Oleo Script', sans-serif;
+}
+
+.hippo:hover span {
+    display: none;
+}
+
+.hippo_auteuil:hover {
+    background-image: url("./img/auteuil/auteuil.jpg");
+}
+
+.hippo_bacqueville:hover {
+    background-image: url("./img/bacqueville/bacqueville.jpg");
+}
+
+.hippo_bernay:hover {
+    background-image: url("./img/bernay/bernay.jpg");
+}
+
+.hippo_bihorel:hover {
+    background-image: url("./img/bihorel/bihorel.jpg");
+}
+
+.hippo_chantilly:hover {
+    background-image: url("./img/chantilly/chantilly.jpg");
+}
+
+.hippo_chartres:hover {
+    background-image: url("./img/chartres/chartres.jpg");
+}
+
+.hippo_compiegne:hover {
+    background-image: url("./img/compiegne/compiegne.jpg");
+}
+
+.hippo_dieppe:hover {
+    background-image: url("./img/dieppe/dieppe.jpg");
+}
+
+.hippo_enghien:hover {
+    background-image: url("./img/enghien/enghien.jpg");
+}
+
+.hippo_evreux:hover {
+    background-image: url("./img/evreux/evreux.jpg");
+}
+
+.hippo_fontainebleau:hover {
+    background-image: url("./img/fontainebleau/fontainebleau.jpg");
+}
+
+.hippo_gournay:hover {
+    background-image: url("./img/gournay/gournay.jpg");
+}
+
+.hippo_la_ferte:hover {
+    background-image: url("./img/la_ferte-vidame/la_ferte-vidame01.jpg");
+}
+
+.hippo_le_neubourg:hover {
+    background-image: url("./img/le_neubourg/le_neubourg.jpg");
+}
+
+.hippo_les_andelys:hover {
+    background-image: url("./img/les_andelys/les_andelys01.jpg");
+}
+
+.hippo_longchamp:hover {
+    background-image: url("./img/longchamp/longchamp.jpg");
+}
+
+.hippo_maisons:hover {
+    background-image: url("./img/maisons_laffitte/maisons_laffitte.jpg");
+}
+
+.hippo_mauquenchy:hover {
+    background-image: url("./img/mauquenchy/mauquenchy.jpg");
+}
+
+.hippo_rambouillet:hover {
+    background-image: url("./img/rambouillet/rambouillet01.jpg");
+}
+
+.hippo_saint_aubin:hover {
+    background-image: url("./img/saint_aubin/saint_aubin.jpg");
+}
+
+.hippo_saint-cloud:hover {
+    background-image: url("./img/saint-cloud/saint-cloud.jpg");
+}
+
+.hippo_vincennes:hover {
+    background-image: url("./img/vincennes/vincennes.jpg");
+}
+
+
 /* Régions ------------------------------------------------------------------------ */
 
 .divRegions {
@@ -512,6 +665,12 @@ body {
     min-height: 93vh;
     background-color: var(--background-color);
     padding-bottom: 20%;
+}
+
+@media screen and (min-width: 1026px) {
+    .divRegions {
+        padding-bottom: 5%;
+    }
 }
 
 .titleRegions {
