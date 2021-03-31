@@ -5,6 +5,8 @@ import Footer from "./components/Footer";
 import Helmet from "./components/Helmet";
 import { Link } from "react-router-dom";
 import map from "./img/map.jpeg";
+import list from "./img/list.jpg";
+import regions from "./img/regions.png";
 
 const App = (props) => (
   <>
@@ -21,10 +23,15 @@ const App = (props) => (
             <span>Hippodromes</span>
           </div>
         </div>
-        <Link to="/regions" className="case caseLink caseRegions">
+        <Link to="/carte" className="case caseLink caseRegions">
           <div className="titleCase">
-            <span>Régions</span>
+            <span>Regions</span>
           </div>
+          <img
+                src={regions}
+                alt="map"
+
+              />
         </Link>
       </div>
       <div className="ligne">
@@ -34,14 +41,19 @@ const App = (props) => (
           </div>
           <img
                 src={map}
-                alt="argentan6"
-                
+                alt="map"
+
               />
         </Link>
-        <Link to="/liste" className="case caseLink caseListe">
+        <Link to="/carte" className="case caseLink caseList">
           <div className="titleCase">
             <span>Liste</span>
           </div>
+          <img
+                src={list}
+                alt="list"
+
+              />
         </Link>
       </div>
     </div>

@@ -102,37 +102,54 @@ body {
     }
 }
 
-.caseListe {
-    background-color: black;
+.caseList {
+    position: relative;
+    overflow: hidden;
 }
 
-@media screen and (min-width: 1026px) {
-    .caseListe {
-        background-color: white;
-        color: black;
-        opacity: 0.4;
-    }
-    .caseListe:hover {
-        background-color: black;
-        color: white;
-        opacity: 1;
+.caseList .titleCase {
+    position: relative;
+    z-index: 2;
+    color: black;
+}
+
+.caseList img {
+    position: absolute;
+    opacity: 0.8;
+    width: 130%;
+    height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .caseList img {
+        width: 100%;
+        height: 100%;
     }
 }
 
 .caseRegions {
-    background-color: rgb(94, 88, 88);
+    position: relative;
+    overflow: hidden;
+    background-color: white;
 }
 
-@media screen and (min-width: 1026px) {
-    .caseRegions {
-        background-color: rgb(128, 114, 114);
-        color: black;
-        opacity: 0.4;
-    }
-    .caseRegions:hover {
-        background-color: black;
-        color: white;
-        opacity: 1;
+.caseRegions .titleCase {
+    position: relative;
+    z-index: 2;
+    color: black;
+}
+
+.caseRegions img {
+    position: absolute;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .caseRegions img {
+        width: 100%;
+        height: 100%;
     }
 }
 
@@ -272,6 +289,7 @@ body {
     z-index: 100 !important;
     border-bottom: solid 1px white;
     color: white !important;
+    border-bottom: solid 1px black;
 }
 
 .nav-link {
