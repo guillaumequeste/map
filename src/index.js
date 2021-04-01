@@ -9,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min'
 
 /* Nord */
+import Accueil_Nord from './components/Regions/Nord/Accueil_Nord'
 import Abbeville from './components/Regions/Nord/Abbeville'
 import Amiens from './components/Regions/Nord/Amiens'
 import Arras from './components/Regions/Nord/Arras'
@@ -67,11 +68,13 @@ import Le_Lion from './components/Regions/Anjou_Maine_Centre_Ouest/Le_Lion'
 import Meslay from './components/Regions/Anjou_Maine_Centre_Ouest/Meslay'
 
 /* Ouest */
+import Accueil_Ouest from './components/Regions/Ouest/Accueil_Ouest'
 import Maure_de_Bretagne from './components/Regions/Ouest/Maure_de_Bretagne'
 import Nantes from './components/Regions/Ouest/Nantes'
 import Saint_Malo from './components/Regions/Ouest/Saint_Malo'
 
 /* Est */
+import Accueil_Est from './components/Regions/Est/Accueil_Est'
 import Reims from './components/Regions/Est/Reims'
 import Strasbourg from './components/Regions/Est/Strasbourg'
 
@@ -93,6 +96,7 @@ const Root = () => (
         <Switch>
             <Route exact path='/' component={App}/>
 
+            <Route path='/nord' component={Accueil_Nord}/>
             <Route path='/abbeville' component={Abbeville}/>
             <Route path='/amiens' component={Amiens}/>
             <Route path='/arras' component={Arras}/>
@@ -147,10 +151,12 @@ const Root = () => (
             <Route path='/le_lion' component={Le_Lion}/>
             <Route path='/meslay' component={Meslay}/>
 
+            <Route path='/ouest' component={Accueil_Ouest}/>
             <Route path='/maure_de_bretagne' component={Maure_de_Bretagne}/>
             <Route path='/nantes' component={Nantes}/>
             <Route path='/saint-malo' component={Saint_Malo}/>
 
+            <Route path='/est' component={Accueil_Est}/>
             <Route path='/reims' component={Reims}/>
             <Route path='/strasbourg' component={Strasbourg}/>
 

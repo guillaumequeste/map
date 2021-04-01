@@ -709,6 +709,54 @@ body {
     background-image: url("./img/mons/mons.jpg");
 }
 
+.hippo_abbeville:hover {
+    background-image: url("./img/abbeville/abbeville.jpg");
+}
+
+.hippo_amiens:hover {
+    background-image: url("./img/amiens/amiens.jpg");
+}
+
+.hippo_arras:hover {
+    background-image: url("./img/arras/arras01.jpg");
+}
+
+.hippo_la_capelle:hover {
+    background-image: url("./img/la_capelle/la_capelle.jpg");
+}
+
+.hippo_le_croise:hover {
+    background-image: url("./img/le_croise/le_croise.jpg");
+}
+
+.hippo_le_touquet:hover {
+    background-image: url("./img/le_touquet/le_touquet.jpg");
+}
+
+.hippo_saint-omer:hover {
+    background-image: url("./img/saint-omer/saint-omer.jpg");
+}
+
+.hippo_reims:hover {
+    background-image: url("./img/reims/reims.jpg");
+}
+
+.hippo_strasbourg:hover {
+    background-image: url("./img/strasbourg/strasbourg.jpg");
+}
+
+.hippo_maure_de_bretagne:hover {
+    background-image: url("./img/maure_de_bretagne/maure_de_bretagne.jpg");
+}
+
+.hippo_nantes:hover {
+    background-image: url("./img/nantes/nantes.jpg");
+}
+
+.hippo_saint-malo:hover {
+    background-image: url("./img/saint-malo/saint-malo.jpg");
+}
+
 
 /* Régions ------------------------------------------------------------------------ */
 
