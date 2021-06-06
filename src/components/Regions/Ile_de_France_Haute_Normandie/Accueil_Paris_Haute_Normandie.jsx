@@ -25,7 +25,7 @@ class Accueil_Paris_Haute_Normandie extends Component {
                 </Link>
               </div>
               <div className="caseRegion">
-                <Link to="/bacqueville" className="hippo hippo_bacqueville">
+                <Link to="/bacqueville_en_caux" className="hippo hippo_bacqueville">
                   <span>Bacqueville-en-Caux</span>
                 </Link>
               </div>

@@ -44,7 +44,7 @@ class Bacqueville extends Component {
       <div>
         <Helmet
           title={"Bacqueville en Caux Hippodromes visités"}
-          link={"http://map.guillaumequeste.fr/bacqueville"}
+          link={"http://map.guillaumequeste.fr/bacqueville_en_caux"}
         />
         <Header />
         <Footer />
