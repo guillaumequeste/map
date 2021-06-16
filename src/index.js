@@ -66,6 +66,7 @@ import Craon from './components/Regions/Anjou_Maine_Centre_Ouest/Craon'
 import Laval from './components/Regions/Anjou_Maine_Centre_Ouest/Laval'
 import Le_Lion from './components/Regions/Anjou_Maine_Centre_Ouest/Le_Lion'
 import Meslay from './components/Regions/Anjou_Maine_Centre_Ouest/Meslay'
+import Segre from './components/Regions/Anjou_Maine_Centre_Ouest/Segre'
 
 /* Ouest */
 import Accueil_Ouest from './components/Regions/Ouest/Accueil_Ouest'
@@ -150,6 +151,7 @@ const Root = () => (
             <Route path='/laval' component={Laval}/>
             <Route path='/le_lion' component={Le_Lion}/>
             <Route path='/meslay' component={Meslay}/>
+            <Route path='/segre' component={Segre}/>
 
             <Route path='/ouest' component={Accueil_Ouest}/>
             <Route path='/maure_de_bretagne' component={Maure_de_Bretagne}/>

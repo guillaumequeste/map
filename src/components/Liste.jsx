@@ -267,6 +267,11 @@ class Liste extends Component {
               </Link>
             </p>
             <p>
+              <Link to="/segre" className="linkListe">
+                <span className="titleLinkListe">Segré</span>
+              </Link>
+            </p>
+            <p>
               <Link to="/Strasbourg" className="linkListe">
                 <span className="titleLinkListe">Strasbourg</span>
               </Link>

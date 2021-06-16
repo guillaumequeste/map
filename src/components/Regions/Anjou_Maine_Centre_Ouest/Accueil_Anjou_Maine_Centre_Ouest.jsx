@@ -56,6 +56,14 @@ class Accueil_Anjou_Maine_Centre_Ouest extends Component {
                 </Link>
               </div>
             </div>
+
+            <div className="ligneRegion">
+              <div className="caseRegion">
+                <Link to="/segre" className="hippo hippo_segre">
+                  <span>Segré</span>
+                </Link>
+              </div>
+            </div>
  
           </div>
         </div>

@@ -51,6 +51,7 @@ import saint_cloudmini from "../img/saint-cloud/saint-cloudmini.jpg";
 import saint_malomini from "../img/saint-malo/saint-malomini.jpg";
 import saint_omermini from "../img/saint-omer/saint-omermini.jpg";
 import saint_pierre_sur_divesmini from "../img/saint-pierre-sur-dives/saint-pierre-sur-divesmini.jpg";
+import segre01min from "../img/segre/segre01min.jpg";
 import strasbourgmini from "../img/strasbourg/strasbourgmini.jpg";
 import vincennesmini from "../img/vincennes/vincennesmini.jpg";
 import viremini from "../img/vire/viremini.jpg";
@@ -114,6 +115,7 @@ export default class CarteHippodromes extends Component {
     const saint_malo = [48.6427010279671, -1.998111407655415];
     const saint_omer = [50.7268006139747, 2.237274716949514];
     const saint_pierre_sur_dives = [49.014937553296704, -0.04520430461991509];
+    const segre = [47.675918477196426, -0.8441035055267632];
     const strasbourg = [48.68451691328222, 7.789386643819171];
     const vincennes = [48.8242715410014, 2.451797900881729];
     const vire = [48.85061391062303, -0.8991070195434077];
@@ -121,7 +123,7 @@ export default class CarteHippodromes extends Component {
     return (
       <div className="bodyMap">
         <div className="map">
-          <h1 className="titreCarte">53 hippodromes visités</h1>
+          <h1 className="titreCarte">54 hippodromes visités</h1>
           <MapContainer center={position} zoom={this.state.zoom}>
             <TileLayer
               attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
@@ -844,6 +846,22 @@ export default class CarteHippodromes extends Component {
                       <img
                         src={saint_pierre_sur_divesmini}
                         alt="saint-pierre-sur-dives"
+                        className="apercu"
+                      />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={segre}>
+              <Popup>
+                <Link to="/segre" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Segré</div>
+                    <div>
+                      <img
+                        src={segre01min}
+                        alt="segre"
                         className="apercu"
                       />
                     </div>

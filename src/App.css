@@ -757,6 +757,10 @@ body {
     background-image: url("./img/saint-malo/saint-malo.jpg");
 }
 
+.hippo_segre:hover {
+    background-image: url("./img/segre/segre01.jpg");
+}
+
 
 /* Régions ------------------------------------------------------------------------ */
 
