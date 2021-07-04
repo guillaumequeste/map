@@ -21,7 +21,7 @@ import craonmini from "../img/craon/craonmini.jpg";
 import deauville01min from "../img/deauville/deauville01min.jpg";
 import dieppemini from "../img/dieppe/dieppemini.jpg";
 import dozulemini from "../img/dozule/dozulemini.jpg";
-import enghienmini from "../img/enghien/enghienmini.jpg";
+import enghienmini from "../img/enghien/enghien01min.jpg";
 import evreuxmini from "../img/evreux/evreuxmini.jpg";
 import fontainebleaumini from "../img/fontainebleau/fontainebleaumini.jpg";
 import gournaymini from "../img/gournay/gournaymini.jpg";
