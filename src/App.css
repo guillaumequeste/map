@@ -609,6 +609,10 @@ body {
     background-image: url("./img/evreux/evreux.jpg");
 }
 
+.hippo_francheville:hover {
+    background-image: url("./img/francheville/francheville01.jpg");
+}
+
 .hippo_fontainebleau:hover {
     background-image: url("./img/fontainebleau/fontainebleau.jpg");
 }

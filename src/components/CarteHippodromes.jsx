@@ -23,6 +23,7 @@ import dieppemini from "../img/dieppe/dieppemini.jpg";
 import dozulemini from "../img/dozule/dozulemini.jpg";
 import enghienmini from "../img/enghien/enghien01min.jpg";
 import evreuxmini from "../img/evreux/evreuxmini.jpg";
+import franchevillemini from "../img/francheville/francheville01min.jpg";
 import fontainebleaumini from "../img/fontainebleau/fontainebleaumini.jpg";
 import gournaymini from "../img/gournay/gournaymini.jpg";
 import graignesmini from "../img/graignes/graignesmini.jpg";
@@ -87,6 +88,7 @@ export default class CarteHippodromes extends Component {
     const dozule = [49.24287385707446, -0.03681992937163159];
     const enghien = [48.9799237, 2.2922579];
     const evreux = [49.00912812880299, 1.1131200226011515];
+    const francheville = [48.74343380677615, 0.8237311747766807];
     const fontainebleau = [48.43465286377009, 2.6845060226629585];
     const gournay_en_bray = [49.50269418157618, 1.669992652499559];
     const graignes = [49.24099402100886, -1.2082318585732992];
@@ -123,7 +125,7 @@ export default class CarteHippodromes extends Component {
     return (
       <div className="bodyMap">
         <div className="map">
-          <h1 className="titreCarte">54 hippodromes visités</h1>
+          <h1 className="titreCarte">55 hippodromes visités</h1>
           <MapContainer center={position} zoom={this.state.zoom}>
             <TileLayer
               attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
@@ -420,6 +422,18 @@ export default class CarteHippodromes extends Component {
                     <div>Evreux</div>
                     <div>
                       <img src={evreuxmini} alt="evreux" className="apercu" />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={francheville}>
+              <Popup>
+                <Link to="/francheville" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Francheville-la Barre</div>
+                    <div>
+                      <img src={franchevillemini} alt="francheville" className="apercu" />
                     </div>
                   </div>
                 </Link>

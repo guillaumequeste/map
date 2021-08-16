@@ -45,6 +45,7 @@ import Compiegne from './components/Regions/Ile_de_France_Haute_Normandie/Compie
 import Dieppe from './components/Regions/Ile_de_France_Haute_Normandie/Dieppe'
 import Enghien from './components/Regions/Ile_de_France_Haute_Normandie/Enghien'
 import Evreux from './components/Regions/Ile_de_France_Haute_Normandie/Evreux'
+import Francheville from './components/Regions/Ile_de_France_Haute_Normandie/Francheville'
 import Fontainebleau from './components/Regions/Ile_de_France_Haute_Normandie/Fontainebleau'
 import Gournay from './components/Regions/Ile_de_France_Haute_Normandie/Gournay'
 import La_Ferte_Vidame from './components/Regions/Ile_de_France_Haute_Normandie/La_Ferte_Vidame'
@@ -131,6 +132,7 @@ const Root = () => (
             <Route path='/dieppe' component={Dieppe}/>
             <Route path='/enghien' component={Enghien}/>
             <Route path='/evreux' component={Evreux}/>
+            <Route path='/francheville' component={Francheville}/>
             <Route path='/fontainebleau' component={Fontainebleau}/>
             <Route path='/gournay' component={Gournay}/>
             <Route path='/la_ferte-vidame' component={La_Ferte_Vidame}/>
