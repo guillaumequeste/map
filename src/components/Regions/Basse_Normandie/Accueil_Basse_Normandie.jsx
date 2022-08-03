@@ -56,6 +56,54 @@ class Accueil_Basse_Normandie extends Component {
                 </Link>
               </div>
             </div>
+
+            <div className="ligneRegion">
+              <div className="caseRegion">
+                <Link to="/graignes" className="hippo hippo_graignes">
+                  <span>Graignes</span>
+                </Link>
+              </div>
+              <div className="caseRegion">
+              <Link to="/granville" className="hippo hippo_granville">
+                  <span>Granville</span>
+                </Link>
+              </div>
+            </div>
+
+            <div className="ligneRegion">
+              <div className="caseRegion">
+                <Link to="/le_mont" className="hippo hippo_le_mont">
+                  <span>Le Mont-Saint-Michel</span>
+                </Link>
+              </div>
+              <div className="caseRegion">
+              <Link to="/lisieux" className="hippo hippo_lisieux">
+                  <span>Lisieux</span>
+                </Link>
+              </div>
+            </div>
+
+            <div className="ligneRegion">
+              <div className="caseRegion">
+                <Link to="/ranes" className="hippo hippo_ranes">
+                  <span>Rânes</span>
+                </Link>
+              </div>
+              <div className="caseRegion">
+              <Link to="/saint-pierre-sur-dives" className="hippo hippo_saint-pierre-sur-dives">
+                  <span>Saint-Pierre-sur-Dives</span>
+                </Link>
+              </div>
+            </div>
+
+            <div className="ligneRegion">
+              <div className="caseRegion">
+                <Link to="/vire" className="hippo hippo_vire">
+                  <span>Vire</span>
+                </Link>
+              </div>
+              
+            </div>
  
           </div>
         </div>

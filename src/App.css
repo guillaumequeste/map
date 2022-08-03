@@ -709,6 +709,34 @@ body {
     background-image: url("./img/dozule/dozule.jpg");
 }
 
+.hippo_graignes:hover {
+    background-image: url("./img/graignes/graignes.jpg");
+}
+
+.hippo_granville:hover {
+    background-image: url("./img/granville/granville01.jpg");
+}
+
+.hippo_le_mont:hover {
+    background-image: url("./img/le_mont/le_mont.jpg");
+}
+
+.hippo_lisieux:hover {
+    background-image: url("./img/lisieux/lisieux01.jpg");
+}
+
+.hippo_ranes:hover {
+    background-image: url("./img/ranes/ranes.jpg");
+}
+
+.hippo_saint-pierre-sur-dives:hover {
+    background-image: url("./img/saint-pierre-sur-dives/saint-pierre-sur-dives.jpg");
+}
+
+.hippo_vire:hover {
+    background-image: url("./img/vire/vire.jpg");
+}
+
 .hippo_mons:hover {
     background-image: url("./img/mons/mons.jpg");
 }

@@ -27,6 +27,7 @@ import Clairefontaine from './components/Regions/Basse_Normandie/Clairefontaine'
 import Deauville from './components/Regions/Basse_Normandie/Deauville'
 import Dozule from './components/Regions/Basse_Normandie/Dozule'
 import Graignes from './components/Regions/Basse_Normandie/Graignes'
+import Granville from './components/Regions/Basse_Normandie/Granville'
 import Le_Mont from './components/Regions/Basse_Normandie/Le_Mont'
 import Lisieux from './components/Regions/Basse_Normandie/Lisieux'
 import Ranes from './components/Regions/Basse_Normandie/Ranes'
@@ -115,6 +116,7 @@ const Root = () => (
             <Route path='/deauville' component={Deauville}/>
             <Route path='/dozule' component={Dozule}/>
             <Route path='/graignes' component={Graignes}/>
+            <Route path='/granville' component={Granville}/>
             <Route path='/le_mont' component={Le_Mont}/>
             <Route path='/lisieux' component={Lisieux}/>
             <Route path='/ranes' component={Ranes}/>

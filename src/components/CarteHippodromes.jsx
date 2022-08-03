@@ -27,6 +27,7 @@ import franchevillemini from "../img/francheville/francheville01min.jpg";
 import fontainebleaumini from "../img/fontainebleau/fontainebleaumini.jpg";
 import gournaymini from "../img/gournay/gournaymini.jpg";
 import graignesmini from "../img/graignes/graignesmini.jpg";
+import granville_mini from "../img/granville/granville_mini.jpg";
 import la_capellemini from "../img/la_capelle/la_capellemini.jpg";
 import la_ferte_vidame01min from "../img/la_ferte-vidame/la_ferte-vidame01min.jpg";
 import lavalmini from "../img/laval/lavalmini.jpg";
@@ -92,6 +93,7 @@ export default class CarteHippodromes extends Component {
     const fontainebleau = [48.43465286377009, 2.6845060226629585];
     const gournay_en_bray = [49.50269418157618, 1.669992652499559];
     const graignes = [49.24099402100886, -1.2082318585732992];
+    const granville = [48.862230503877356, -1.5730474215210033];
     const la_capelle = [49.96745788709066, 3.9210740150385845];
     const la_ferte_vidame = [48.62214998449914, 0.8945448696612912];
     const laval = [48.03654876550867, -0.79427457057011];
@@ -125,7 +127,7 @@ export default class CarteHippodromes extends Component {
     return (
       <div className="bodyMap">
         <div className="map">
-          <h1 className="titreCarte">55 hippodromes visités</h1>
+          <h1 className="titreCarte">56 hippodromes visités</h1>
           <MapContainer center={position} zoom={this.state.zoom}>
             <TileLayer
               attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
@@ -480,6 +482,22 @@ export default class CarteHippodromes extends Component {
                       <img
                         src={graignesmini}
                         alt="graignes"
+                        className="apercu"
+                      />
+                    </div>
+                  </div>
+                </Link>
+              </Popup>
+            </Marker>
+            <Marker position={granville}>
+              <Popup>
+                <Link to="/granville" className="linkHippodrome">
+                  <div className="lien">
+                    <div>Granville</div>
+                    <div>
+                      <img
+                        src={granville_mini}
+                        alt="granville"
                         className="apercu"
                       />
                     </div>
